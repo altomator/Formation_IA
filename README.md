@@ -19,5 +19,7 @@ streamlit run clusters.py
 ```
 
 Fournir les données textuelles : 15 000 notices BnF (21e siècle)
-``21e_15k_titre-auteur-sujet.txt``
 
+Fichier : ``21e_15k_titre-auteur-sujet.txt``
+
+##
