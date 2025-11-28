@@ -6,7 +6,7 @@
 
 [Démo web](https://clustering-visualizer.web.app/kmeans)
 
-Atelier K-Means:
+Atelier K-Means :
 - [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 - source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
 
@@ -18,12 +18,12 @@ pip install streamlit bertopic scikit-learn matplotlib pandas sentence-transform
 pip install -U kaleido
 ```
 
-3. Script
+3. Lancer le script
 ```
 streamlit run clusters.py
 ```
 
-Fournir les données textuelles : 15 000 notices BnF (21e siècle)
+4. Fournir les données textuelles : 15 000 notices BnF (21e siècle)
 
 Fichier : ``21e_15k_titre-auteur-sujet.txt``
 
