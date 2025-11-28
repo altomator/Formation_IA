@@ -6,9 +6,9 @@
 
 [Démo web](https://clustering-visualizer.web.app/kmeans)
 
-Atelier : [kmeans](https://github.com/altomator/Formation_IA/tree/main/kmeans)
-
-Source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
+Atelier K-Means:
+- [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
+- source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
 
 1. Créer un environnement Python
 
