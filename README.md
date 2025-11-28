@@ -1,7 +1,12 @@
 # Formation IA
 
+# Apprentissage non supervisé
+
 ## Clusterisation
-Dossier : [kmeans](https://github.com/altomator/Formation_IA/tree/main/kmeans)
+
+[Démo web](https://clustering-visualizer.web.app/kmeans)
+
+Atelier : [kmeans](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 
 Source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
 
@@ -22,4 +27,7 @@ Fournir les données textuelles : 15 000 notices BnF (21e siècle)
 
 Fichier : ``21e_15k_titre-auteur-sujet.txt``
 
-##
+# Apprentissage supervisé
+
+## Perceptron
+
