@@ -31,3 +31,7 @@ Fichier : ``21e_15k_titre-auteur-sujet.txt``
 
 ## Perceptron
 
+[Démo web](https://mlweb.loria.fr/book/en/perceptron.html)
+
+
+
