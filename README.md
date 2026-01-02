@@ -2,6 +2,12 @@
 
 # Apprentissage non supervisé
 
+## Matrice de confusion
+
+Atelier :
+- [github](https://github.com/altomator/Formation_IA/tree/main/iris)
+- source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (https://scikit-learn.org/)
+
 ## Clusterisation
 
 [Démo web](https://clustering-visualizer.web.app/kmeans)
