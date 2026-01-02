@@ -16,6 +16,13 @@ Atelier :
 
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/iris/matrice.png)
 
+## Arbre de décision
+
+Atelier :
+- [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
+- source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
+
+
 
 ## Clusterisation
 
