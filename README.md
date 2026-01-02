@@ -8,7 +8,7 @@ Atelier :
 - [github](https://github.com/altomator/Formation_IA/tree/main/iris)
 - source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
 
-1. Visualiser le dataset avec [iris_dataset.py ]()
+1. Visualiser le dataset avec [iris_dataset.py ](https://github.com/altomator/Formation_IA/blob/main/iris/iris_dataset.py)
 2. Calculer la matrice de confusion avec le [notebook](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html)  
 
 ## Clusterisation
