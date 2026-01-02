@@ -22,7 +22,9 @@ Atelier :
 - [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
 - source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
 
+2. Calculer l'arbre de décision avec le [notebook](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (utiliser JupyterLite)
 
+   ![Visualisation de l'arbre de décision](https://github.com/altomator/Formation_IA/blob/main/arbre/arbre.png)
 
 ## Clusterisation
 
