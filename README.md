@@ -58,4 +58,11 @@ Fichier : ``21e_15k_titre-auteur-sujet.txt``
 [Démo web](https://mlweb.loria.fr/book/en/perceptron.html)
 
 
+## Perceptron multicouche (keras)
+
+Atelier Perceptron multicouche :
+- [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
+- source [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
+
+
 
