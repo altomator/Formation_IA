@@ -70,5 +70,6 @@ Atelier Perceptron multicouche :
    
 3. Produire la matrice de confusion.
    
+   ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
 
 
