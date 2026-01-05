@@ -68,5 +68,7 @@ Atelier Perceptron multicouche :
 
 2. Le charger dans Google Colab.
    
+3. Produire la matrice de confusion.
+   
 
 
