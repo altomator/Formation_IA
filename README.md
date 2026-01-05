@@ -62,7 +62,11 @@ Fichier : ``21e_15k_titre-auteur-sujet.txt``
 
 Atelier Perceptron multicouche :
 - [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
-- source [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
+- source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
 
+1. Télécharger le notebook.
+
+2. Le charger dans Google Colab.
+   
 
 
