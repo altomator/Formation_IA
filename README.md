@@ -12,7 +12,7 @@ Atelier :
    
    ![Visualisation des variables pétale (longueur, largeur)](https://github.com/altomator/Formation_IA/blob/main/iris/petal.png)
 
-   > L'espèce Setosa est caractérisée par une petite taille de pétales.
+> L'espèce Setosa est caractérisée par une petite taille de pétales.
    
 3. Calculer la matrice de confusion avec le [notebook](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (utiliser JupyterLite - bouton <b>Launch Lite</b> — ou tout autre application compatible)
 
