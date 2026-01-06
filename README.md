@@ -18,7 +18,7 @@ Atelier :
 
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/iris/matrice.png)
 
-> Interprétation : confusion du modèle entre les espèces setosa et
+> Interprétation : confusion du modèle entre les espèces setosa et virginica
 
 ## Arbre de décision
 
