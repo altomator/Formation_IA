@@ -30,6 +30,12 @@ Atelier :
 
    ![Visualisation de l'arbre de décision](https://github.com/altomator/Formation_IA/blob/main/arbre/arbre.png)
 
+> Interprétation : dans la première noeud du modèle, la variable x[2] (longueur de pétale) permet de prédire intégralement la classe n° 1 (setosa). Cf. graphe ci-avant
+ : x[2] <= 2.45
+
+
+
+
 ## Clusterisation
 
 [Démo web](https://clustering-visualizer.web.app/kmeans)
