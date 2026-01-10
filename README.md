@@ -100,5 +100,4 @@ Atelier :
 6. Exécuter cellule par cellule
 7. Produire et analyser la matrice de confusion.
    
-   ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/cv/matrice_iris.png)
 
