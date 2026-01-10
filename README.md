@@ -84,3 +84,17 @@ Atelier Perceptron multicouche :
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
 
 
+# Analyse d'images
+
+## Entrainement d'un modèle avec Kaggle
+
+Atelier Perceptron multicouche :
+- jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
+
+1. Se connecter sur kaggle.com
+2. Ouvrir la page du jeu de données Iris
+3. Aller sur l'onglet Code
+4. Choisir le notebook [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
+5. Cliquer sur Copy & Edit notebook
+6. 
+
