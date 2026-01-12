@@ -60,10 +60,11 @@ pip install -U kaleido
 streamlit run clusters.py
 ```
 
-4. Fournir les données textuelles : 15 000 notices BnF (21e siècle)
+4. Fournir les données textuelles : [15 000 notices BnF (21e siècle)](https://github.com/altomator/Formation_IA/blob/main/kmeans/21e_15k_titre-auteur-sujet.txt)
 
 Fichier : ``21e_15k_titre-auteur-sujet.txt``
 
+5. 
 
 # Apprentissage supervisé
 
