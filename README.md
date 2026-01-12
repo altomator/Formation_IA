@@ -1,8 +1,7 @@
 # Formation "IA et patrimoine"
 
-# Apprentissage machine
 
-## Matrice de confusion
+# Matrice de confusion
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
 
@@ -25,8 +24,10 @@
 
 ## Arbre de décision
 
+<i>Section "C. Apprentissage machine" du support de cours</i>
+
 - [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
-- source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
+- Source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
 
 2. Calculer l'arbre de décision avec le [notebook](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (utiliser JupyterLite)
 
@@ -38,6 +39,8 @@
 
 ## Perceptron
 
+<i>Section "C. Apprentissage machine" du support de cours</i>
+
 [Démo web Loria](https://mlweb.loria.fr/book/en/perceptron.html)
 
 [Démo web Tensorflow](https://playground.tensorflow.org)
@@ -46,14 +49,16 @@
 
 ## Perceptron multicouche (avec keras)
 
+<i>Section "C. Apprentissage machine" du support de cours</i>
+
+
 [Démo web Tensorflow](https://playground.tensorflow.org)
 
-Atelier Perceptron multicouche :
+<b>Atelier Perceptron multicouche :</b>
 - [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
-- source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
+- Source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
 
 1. Télécharger le notebook.
-
 2. Le charger dans Google Colab.
 3. Etudier la construction du réseau de neurones. 
 4. Produire la matrice de confusion.
@@ -63,9 +68,9 @@ Atelier Perceptron multicouche :
 
 ## Analyse d'images : entrainement d'un modèle avec Kaggle
 
-Atelier :
-- jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
-- script : [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
+<b>Atelier :</b>
+- Jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
+- Script : [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
 
 1. Se connecter sur kaggle.com
 2. Ouvrir la page du jeu de données Iris
@@ -81,11 +86,14 @@ Atelier :
 
 ## Clusterisation avec K-Means 
 
+<i>Section "C. Apprentissage machine" du support de cours</i>
+
 [Démo web](https://clustering-visualizer.web.app/kmeans)
 
-Atelier : 
+<b>Atelier :</b> 
 - [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
-- source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
+- Source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
+- Jeu de données :  [15 000 notices BnF (21e siècle)](https://github.com/altomator/Formation_IA/blob/main/kmeans/21e_15k_titre-auteur-sujet.txt)
 
 1. Créer un environnement Python avec venv
 ```
@@ -113,12 +121,6 @@ streamlit run clusters.py
 
 
 
-
-
-
-
-
-# Apprentissage supervisé
 
 
 
