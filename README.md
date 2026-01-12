@@ -51,7 +51,6 @@
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
-
 [Démo web Tensorflow](https://playground.tensorflow.org)
 
 <b>Atelier Perceptron multicouche :</b>
@@ -66,7 +65,15 @@
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
 
 
-## Analyse d'images : entrainement d'un modèle avec Kaggle
+## CNN 
+
+<i>Section "D. Comprendre les images" du support de cours</i>
+
+[Démo web CNN](https://poloclub.github.io/cnn-explainer/)
+
+## Entrainement d'un CNN avec Kaggle
+
+<i>Section "D. Comprendre les images" du support de cours</i>
 
 <b>Atelier :</b>
 - Jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
