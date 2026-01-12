@@ -38,10 +38,15 @@
 
 ## Perceptron
 
-[Démo web](https://mlweb.loria.fr/book/en/perceptron.html)
+[Démo web Loria](https://mlweb.loria.fr/book/en/perceptron.html)
+
+[Démo web Tensorflow](https://playground.tensorflow.org)
 
 
-## Perceptron multicouche (keras)
+
+## Perceptron multicouche (avec keras)
+
+[Démo web Tensorflow](https://playground.tensorflow.org)
 
 Atelier Perceptron multicouche :
 - [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
@@ -50,10 +55,11 @@ Atelier Perceptron multicouche :
 1. Télécharger le notebook.
 
 2. Le charger dans Google Colab.
-   
-3. Produire la matrice de confusion.
+3. Etudier la construction du réseau de neurones. 
+4. Produire la matrice de confusion.
    
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
+
 
 ## Analyse d'images : entrainement d'un modèle avec Kaggle
 
