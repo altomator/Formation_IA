@@ -119,6 +119,10 @@ streamlit run clusters.py
 
 5. Cliquer sur l'onglet "Analyse de données"
 
+## Auto-encodeur
+
+[Démo web d'un VAE](https://xnought.github.io/vq-vae-explainer/)
+
 
 
 
