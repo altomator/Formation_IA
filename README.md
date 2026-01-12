@@ -21,6 +21,8 @@
 
 > Interprétation : confusion du modèle entre les espèces versicolor et virginica.
 
+# Apprentissage supervisé
+
 ## Arbre de décision
 
 - [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
@@ -34,8 +36,42 @@
  :
 ``` x[2] <= 2.45 ```
 
+## Perceptron
+
+[Démo web](https://mlweb.loria.fr/book/en/perceptron.html)
 
 
+## Perceptron multicouche (keras)
+
+Atelier Perceptron multicouche :
+- [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
+- source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
+
+1. Télécharger le notebook.
+
+2. Le charger dans Google Colab.
+   
+3. Produire la matrice de confusion.
+   
+   ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
+
+## Analyse d'images : entrainement d'un modèle avec Kaggle
+
+Atelier :
+- jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
+- script : [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
+
+1. Se connecter sur kaggle.com
+2. Ouvrir la page du jeu de données Iris
+3. Aller sur l'onglet Code
+4. Choisir le notebook [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
+5. Cliquer sur Copy & Edit notebook
+6. Exécuter cellule par cellule
+7. Produire et analyser la matrice de confusion.
+   
+
+
+# Apprentissage non supervisé
 
 ## Clusterisation avec K-Means 
 
@@ -70,42 +106,13 @@ streamlit run clusters.py
 5. Cliquer sur l'onglet "Analyse de données"
 
 
+
+
+
+
+
+
 # Apprentissage supervisé
 
-## Perceptron
 
-[Démo web](https://mlweb.loria.fr/book/en/perceptron.html)
-
-
-## Perceptron multicouche (keras)
-
-Atelier Perceptron multicouche :
-- [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
-- source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
-
-1. Télécharger le notebook.
-
-2. Le charger dans Google Colab.
-   
-3. Produire la matrice de confusion.
-   
-   ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
-
-
-# Analyse d'images
-
-## Entrainement d'un modèle avec Kaggle
-
-Atelier :
-- jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
-- script : [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
-
-1. Se connecter sur kaggle.com
-2. Ouvrir la page du jeu de données Iris
-3. Aller sur l'onglet Code
-4. Choisir le notebook [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
-5. Cliquer sur Copy & Edit notebook
-6. Exécuter cellule par cellule
-7. Produire et analyser la matrice de confusion.
-   
 
