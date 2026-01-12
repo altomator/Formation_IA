@@ -4,7 +4,6 @@
 
 ## Matrice de confusion
 
-Atelier :
 - [github](https://github.com/altomator/Formation_IA/tree/main/iris)
 - source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
 
@@ -22,7 +21,6 @@ Atelier :
 
 ## Arbre de décision
 
-Atelier :
 - [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
 - source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
 
@@ -37,11 +35,10 @@ Atelier :
 
 
 
-## Clusterisation
+## Clusterisation avec K-Means :
 
 [Démo web](https://clustering-visualizer.web.app/kmeans)
 
-Atelier K-Means :
 - [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 - source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
 
