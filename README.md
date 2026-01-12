@@ -5,7 +5,7 @@
 ## Matrice de confusion
 
 - [github](https://github.com/altomator/Formation_IA/tree/main/iris)
-- source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
+- Source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
 
 1. Visualiser le dataset avec [iris_dataset.py ](https://github.com/altomator/Formation_IA/blob/main/iris/iris_dataset.py), en affichant les variables longueur/largeur pour les pétales et les sétales.
    
@@ -35,16 +35,21 @@
 
 
 
-## Clusterisation avec K-Means :
+## Clusterisation avec K-Means 
 
 [Démo web](https://clustering-visualizer.web.app/kmeans)
 
+Atelier : 
 - [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 - source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
 
-1. Créer un environnement Python
+1. Créer un environnement Python avec venv
+```
+python3 -m venv kmeans
+source myenv/bin/activate
+```
 
-2. Dépendances
+2. Installer les dépendances
 ```
 pip install streamlit bertopic scikit-learn matplotlib pandas sentence-transformers nltk seaborn WordCloud
 pip install -U kaleido
@@ -58,6 +63,7 @@ streamlit run clusters.py
 4. Fournir les données textuelles : 15 000 notices BnF (21e siècle)
 
 Fichier : ``21e_15k_titre-auteur-sujet.txt``
+
 
 # Apprentissage supervisé
 
