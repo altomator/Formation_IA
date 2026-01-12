@@ -1,8 +1,10 @@
-# Formation IA
+# Formation "IA et patrimoine"
 
-# Apprentissage non supervisé
+# Apprentissage machine
 
 ## Matrice de confusion
+
+<i>Section "B. Evaluation des résultats" du support de cours</i>
 
 - [github](https://github.com/altomator/Formation_IA/tree/main/iris)
 - Source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
@@ -62,9 +64,11 @@ streamlit run clusters.py
 
 4. Fournir les données textuelles : [15 000 notices BnF (21e siècle)](https://github.com/altomator/Formation_IA/blob/main/kmeans/21e_15k_titre-auteur-sujet.txt)
 
-Fichier : ``21e_15k_titre-auteur-sujet.txt``
+- Fichier : ``21e_15k_titre-auteur-sujet.txt``
+- Définir le répertoire de travail (local)
 
-5. 
+5. Cliquer sur l'onglet "Analyse de données"
+
 
 # Apprentissage supervisé
 
