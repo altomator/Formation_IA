@@ -152,7 +152,7 @@ Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illust
 - double page
 - publicité
 
-      ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/m-c.png)
+  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/m-c.png)
 
 
 Utiliser une des approches suivantes ou toute autre proposition. 
@@ -174,7 +174,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 
 <b>Atelier :</b> 
 - [Images](https://github.com/altomator/Formation_IA/tree/main/cnn)
-- [Roboflow](https://roboflow.com) : https://roboflow.com
+- https://roboflow.com
 
 1. Importer un dossier d’images
 2. Option Label Myself, puis Select all
