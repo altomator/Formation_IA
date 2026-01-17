@@ -148,23 +148,25 @@ streamlit run clusters.py
 ## A. Classification d’images 
 
 Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illustrations extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) :  
-- couvertures 
-- double pages 
-- publicités 
+- couverture
+- double page
+- publicité
 
+Utiliser une des approches suivantes ou toute autre proposition. 
 
-<b>Atelier :</b> 
-- [github](https://github.com/altomator/Formation_IA/tree/main/cnn)
-- Source : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/) 
+<b>Ressources :</b> 
 - Jeu de données :  [170 images](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/) ou [Github](https://github.com/altomator/Formation_IA/upload/main/
-marie-claire_img) :
-- couvertures (30)
-- double pages (40)
-- publicités (100)
+marie-claire_img) : couvertures (30) ; double pages (40) ; publicités (100)
+- [github](https://github.com/altomator/Formation_IA/tree/main/cnn)
 
 
 ### Avec Kaggle et Keras
 
+<b>Atelier :</b> 
+- [github](https://github.com/altomator/Formation_IA/tree/main/cnn)
+- Source : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
+
+  
 ### Avec Roboflow
 
 
