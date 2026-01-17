@@ -185,4 +185,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 7. Train model : VIT
 8. Evaluer le modèle : View Model
 
+Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https://github.com/altomator/Roboflow). 
+
+
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
