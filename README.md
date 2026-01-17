@@ -5,7 +5,7 @@ Plan :
 - [*Introduction*](#introduction)
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
-
+- *[Ateliers*](#ateliers)
 
 ***
 
@@ -141,8 +141,30 @@ streamlit run clusters.py
 
 [Démo web d'un VAE]((https://xnought.github.io/vq-vae-explainer/)
 
+***
+
+# Ateliers
+
+## A. Classification d’images 
+
+Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illustrations extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) :  
+- couvertures 
+- double pages 
+- publicités 
 
 
+<b>Atelier :</b> 
+- [github](https://github.com/altomator/Formation_IA/tree/main/cnn)
+- Source : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/) 
+- Jeu de données :  [170 images](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/) ou [Github](https://github.com/altomator/Formation_IA/upload/main/
+marie-claire_img) :
+- couvertures (30)
+- double pages (40)
+- publicités (100)
 
+
+### Avec Kaggle et Keras
+
+### Avec Roboflow
 
 
