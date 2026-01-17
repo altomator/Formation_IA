@@ -173,7 +173,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 ### Avec Roboflow
 
 <b>Atelier :</b> 
-- [Images](https://github.com/altomator/Formation_IA/tree/main/cnn)
+- [Images](https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img)
 - https://roboflow.com
 
 1. Importer un dossier d’images
