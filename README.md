@@ -183,4 +183,6 @@ Utiliser une des approches suivantes ou toute autre proposition.
 5. New version (dataset)
 6. Ajouter de l’augmentation : Gray, Saturation
 7. Train model : VIT
+8. Evaluer le modèle : View Model
 
+ ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
