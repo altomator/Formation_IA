@@ -73,8 +73,6 @@
 
 ## Entrainement d'un CNN avec Kaggle
 
-<i>Section "D. Comprendre les images" du support de cours</i>
-
 <b>Atelier :</b>
 - Jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
 - Notebook : [Iris - TF CNN](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/)
@@ -84,6 +82,7 @@
 3. Cliquer sur Copy & Edit notebook
 4. Exécuter cellule par cellule
 5. Produire et analyser la matrice de confusion.
+6. Tracer la courbe de  précision de l'entraînement et de la validation 
    
 
 # Apprentissage non supervisé
