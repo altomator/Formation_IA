@@ -1,7 +1,17 @@
 # Formation "IA et patrimoine"
 
+Plan : 
 
-# Matrice de confusion
+- [*Introduction*](#introduction)
+- [*Apprentissage supervisé*](#apprentissage-supervisé)
+- [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
+
+
+***
+
+# Introduction
+
+## Matrice de confusion
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
 
