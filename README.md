@@ -5,7 +5,7 @@ Plan :
 - [*Introduction*](#introduction)
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
-- *[Ateliers*](#ateliers)
+- [*Ateliers*](#ateliers)
 
 ***
 
