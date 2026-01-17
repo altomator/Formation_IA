@@ -152,6 +152,9 @@ Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illust
 - double page
 - publicité
 
+      ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/m-c.png)
+
+
 Utiliser une des approches suivantes ou toute autre proposition. 
 
 <b>Ressources :</b> 
@@ -174,10 +177,10 @@ Utiliser une des approches suivantes ou toute autre proposition.
 - [Roboflow](https://roboflow.com) : https://roboflow.com
 
 1. Importer un dossier d’images
-Option Label Myself, puis Select all
-Actions/Batch Label images et créer la classe
-Ajouter les batchs d’images à un dataset
-New version (dataset)
-Ajouter de l’augmentation : Gray, Saturation
-Train model : VIT
+2. Option Label Myself, puis Select all
+3. Actions/Batch Label images et créer la classe
+4. Ajouter les batchs d’images à un dataset
+5. New version (dataset)
+6. Ajouter de l’augmentation : Gray, Saturation
+7. Train model : VIT
 
