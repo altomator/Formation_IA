@@ -65,7 +65,7 @@
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/perceptron/matrice.png)
 
 
-## CNN 
+##  Réseaux de neurones convolutifs (CNN) 
 
 <i>Section "D. Comprendre les images" du support de cours</i>
 
@@ -77,17 +77,14 @@
 
 <b>Atelier :</b>
 - Jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
-- Script : [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
+- Notebook : [Iris - TF CNN](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/)
 
 1. Se connecter sur kaggle.com
-2. Ouvrir la page du jeu de données Iris
-3. Aller sur l'onglet Code
-4. Choisir le notebook [Iris - TF CNN](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
-5. Cliquer sur Copy & Edit notebook
-6. Exécuter cellule par cellule
-7. Produire et analyser la matrice de confusion.
+2. Ouvrir le [notebook](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/) 
+3. Cliquer sur Copy & Edit notebook
+4. Exécuter cellule par cellule
+5. Produire et analyser la matrice de confusion.
    
-
 
 # Apprentissage non supervisé
 
