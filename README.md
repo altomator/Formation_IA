@@ -156,8 +156,8 @@ Utiliser une des approches suivantes ou toute autre proposition.
 
 <b>Ressources :</b> 
 - Jeu de données de 170 illustrations : couvertures (30) ; double pages (40) ; publicités (100)
- - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
- - ou [https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
+  - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
+  - ou [https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
 
 
    
