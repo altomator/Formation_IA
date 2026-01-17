@@ -82,8 +82,11 @@
 3. Cliquer sur Copy & Edit notebook
 4. Exécuter cellule par cellule
 5. Produire et analyser la matrice de confusion.
-6. Tracer la courbe de  précision de l'entraînement et de la validation 
-   
+6. Tracer la courbe de perte  
+
+
+      ![Visualisation de la perte lors de l'entrainement](https://github.com/altomator/Formation_IA/blob/main/cnn/loss.png)
+
 
 # Apprentissage non supervisé
 
