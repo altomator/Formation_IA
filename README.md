@@ -155,18 +155,26 @@ Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illust
 Utiliser une des approches suivantes ou toute autre proposition. 
 
 <b>Ressources :</b> 
-- Jeu de données :  [170 images](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/) ou [Github](https://github.com/altomator/Formation_IA/upload/main/
-marie-claire_img) : couvertures (30) ; double pages (40) ; publicités (100)
-- [github](https://github.com/altomator/Formation_IA/tree/main/cnn)
-
+- Jeu de données :  [170 images](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/) : couvertures (30) ; double pages (40) ; publicités (100)
+ - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
 
 ### Avec Kaggle et Keras
 
 <b>Atelier :</b> 
-- [github](https://github.com/altomator/Formation_IA/tree/main/cnn)
 - Source : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
 
   
 ### Avec Roboflow
 
+<b>Atelier :</b> 
+- [Images](https://github.com/altomator/Formation_IA/tree/main/cnn)
+- [Roboflow](https://roboflow.com) : https://roboflow.com
+
+1. Importer un dossier d’images
+Option Label Myself, puis Select all
+Actions/Batch Label images et créer la classe
+Ajouter les batchs d’images à un dataset
+New version (dataset)
+Ajouter de l’augmentation : Gray, Saturation
+Train model : VIT
 
