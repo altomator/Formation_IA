@@ -206,7 +206,7 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 ### Avec SciKit
 
 <b>Atelier :</b> 
-- [Jeu de données](https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_data)
+- [Jeu de données](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
 - https://kaggle.com
 
 _Démarche_ :
