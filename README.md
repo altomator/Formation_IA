@@ -210,3 +210,8 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 - https://roboflow.com
 
 _Démarche_ :
+
+1. Etudier la forme des données
+2. Utiliser une approche :
+   2.a : SVM avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html)
+   2.b : ou arbre de décision avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) 
