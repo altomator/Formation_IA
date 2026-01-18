@@ -160,7 +160,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 <b>Ressources :</b> 
 - Jeu de données de 170 illustrations : couvertures (30) ; double pages (40) ; publicités (100)
   - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
-  - 
+    
 
 
    
@@ -182,7 +182,6 @@ _Démarche_ :
 ### Avec Roboflow
 
 <b>Atelier :</b> 
-- [Images](https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img)
 - https://roboflow.com
 
 _Démarche_ :
