@@ -176,6 +176,7 @@ _Démarche_ :
 3. Importer le dataset d'images de _Marie-Claire_ dans le notebook (Input/Upload)
 4. Supprimer le dataset _iris_
 5. Adapter le code
+6. Evaluer le modèle 
    
   
 ### Avec Roboflow
@@ -186,7 +187,7 @@ _Démarche_ :
 
 _Démarche_ :
 
-
+0. Télécharger le dataset _Marie-Claire_
 1. Importer un dossier d’images
 2. Option Label Myself, puis Select all
 3. Actions/Batch Label images et créer la classe
@@ -204,3 +205,8 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 
 ### Avec SciKit
 
+<b>Atelier :</b> 
+- [Images](https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img)
+- https://roboflow.com
+
+_Démarche_ :
