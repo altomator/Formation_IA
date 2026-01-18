@@ -145,7 +145,7 @@ streamlit run clusters.py
 
 # Ateliers
 
-## A. Classification d’images 
+## A. Classification d’illustrations 
 
 Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illustrations extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) numérisé dans Gallica :  
 - couverture
@@ -160,21 +160,32 @@ Utiliser une des approches suivantes ou toute autre proposition.
 <b>Ressources :</b> 
 - Jeu de données de 170 illustrations : couvertures (30) ; double pages (40) ; publicités (100)
   - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
-  - ou [https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
+  - 
 
 
    
 ### Avec Kaggle et Keras
 
 <b>Atelier :</b> 
-- Source : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
+- Notebook de classification d'images d'iris : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
 
+_Démarche_ :
+
+1. Ouvrir le notebook
+2. Le copier et l'éditer
+3. Importer le dataset d'images de _Marie-Claire_ dans le notebook (Input/Upload)
+4. Supprimer le dataset _iris_
+5. Adapter le code
+   
   
 ### Avec Roboflow
 
 <b>Atelier :</b> 
 - [Images](https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img)
 - https://roboflow.com
+
+_Démarche_ :
+
 
 1. Importer un dossier d’images
 2. Option Label Myself, puis Select all
@@ -189,3 +200,7 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 
 
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
+
+
+### Avec SciKit
+
