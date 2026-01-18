@@ -219,3 +219,7 @@ _Démarche_ :
    2.b : Arbre de décision avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html)
 
     ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
+
+
+## B. Workflow n8n :
+
