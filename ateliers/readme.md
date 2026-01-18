@@ -1,3 +1,6 @@
-Clé Mistral
+## Atelier classification d'illustrations
 
-DUU0vbjO4PROqReYYQGeTnhvZ7yNTa1B
+### Notebook Kaggle / CNN Marie-Claire
+
+### Notebook Kaggle / SVM Marie-Claire
+
