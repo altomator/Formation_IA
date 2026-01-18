@@ -216,4 +216,6 @@ _Démarche_ :
    
    2.a : SVM avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html)
    
-   2.b : Arbre de décision avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) 
+   2.b : Arbre de décision avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html)
+
+    ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
