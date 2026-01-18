@@ -171,7 +171,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 
 _Démarche_ :
 
-1. Ouvrir le notebook
+1. Ouvrir le notebook Kaggle
 2. Le copier et l'éditer
 3. Importer le dataset d'images de _Marie-Claire_ dans le notebook (Input/Upload)
 4. Supprimer le dataset _iris_
