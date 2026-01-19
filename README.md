@@ -171,6 +171,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 
 _Démarche_ :
 
+0. Ouvrir un compte Kaggle ou se connecter
 1. Ouvrir le notebook Kaggle
 2. Le copier et l'éditer
 3. Importer le dataset d'images de _Marie-Claire_ dans le notebook (Input/Upload)
@@ -180,9 +181,9 @@ _Démarche_ :
 
 **Pièges** :
 
-- Lecture des images : le caractère délimiteur est ';'
-- Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec df.drop(). x doit ne contenir que des valeurs numériques
-- 
+- Lecture des images : attention à l'arborescence des dossiers (`data_dir = ...`)
+
+
   
 ### Avec Roboflow
 
@@ -210,7 +211,7 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
 
 
-### Avec SciKit
+### Avec Kaggle et SciKit
 
 <b>Atelier :</b> 
 - [Jeu de données](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
@@ -218,17 +219,19 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 
 _Démarche_ :
 
-1. Etudier la forme des données sur les axes largeur, hauteur, nombre de mots (utiliser plot, ploty)
-2. Utiliser une de ces approches en s’inspirant des notebooks suivants :  
-   
-2.a : SVM avec comme base le notebook [Kaggle](https://www.kaggle.com/code/prashant808/iris-dataset-using-svm))
-   
-2.b : Arbre de décision avec comme base le notebook [Kaggle](https://www.kaggle.com/code/sheemamasood/decisiontree-classifier-iris )
+0. Ouvrir un compte Kaggle ou se connecter
+1. Utiliser une de ces approches en s’inspirant des notebooks suivants :  
+1.a : SVM avec comme base le notebook [Kaggle](https://www.kaggle.com/code/prashant808/iris-dataset-using-svm))  
+1.b : Arbre de décision avec comme base le notebook [Kaggle](https://www.kaggle.com/code/sheemamasood/decisiontree-classifier-iris )
+2. Le copier et l'éditer
+3. Etudier la forme des données sur les axes largeur, hauteur, nombre de mots (utiliser `matplotlib.pyplot`)
+4. Lancer l'entrainement
+5. Etudier les performances
 
 **Pièges SVM** :
 
-- Lecture du fichier CSV : le caractère délimiteur est ';'
-- Préparation des données
+- Lecture du fichier CSV : le caractère délimiteur est ';'.
+- Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec `df.drop()`. `x` doit ne contenir que des valeurs numériques.
 - Evaluation du modèle : ajouter le calcul de la matrice de confusion ([exemple](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html))
 	
 **Pièges Arbres** :
