@@ -175,7 +175,9 @@ Les données à disposition sont les suivantes :
 
 
    
-### Avec Kaggle et Keras
+### Avec Kaggle et Keras : analyse d'images
+
+**Méthode** : entraîner un modèle CNN par transfert learning avec un notebook.
 
 <b>Atelier :</b> 
 - Notebook Kaggle de classification d'images d'iris : [Kaggle](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
@@ -194,9 +196,10 @@ _Démarche_ :
 
 - Lecture des images : attention à l'arborescence des dossiers (`data_dir = ...`)
 
-
   
-### Avec Roboflow
+### Avec Roboflow : analyse d'images
+
+**Méthode** : entraîner un modèle CNN par transfert learning avec une plateforme IA.
 
 <b>Atelier :</b> 
 - https://roboflow.com
@@ -227,7 +230,10 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
 
 
-### Avec Kaggle et SciKit
+### Avec Kaggle et SciKit : : analyse de données
+
+**Méthode** : entraîner un modèle à partir de données dérivées numériques.
+
 
 <b>Atelier :</b> 
 - [Jeu de données numériques](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
@@ -255,5 +261,24 @@ _Démarche_ :
     ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
 
 
-## B. Workflow n8n :
+### Avec un LLM : analyse de texte
+
+**Méthode** : utiliser un LLM en zero shot learning pour classer les illustrations connaissant leur texte océrisé.
+
+
+<b>Atelier :</b> 
+- [Jeu de données textuelles](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
+- outil de codage Python
+- un LLM en mode API
+
+_Démarche_ :
+
+1. Utiliser les classes "Double page" et "Publicité" qui peuvent être ambiguës de par leur contenu textuel. La détection de la classe Couverture est trivial, ne pas la traiter (présence systématique du texte "Marie-Claire").
+2. Prompter le LLM pour qu'il produise un décision.
+3. Stocker dans un fichier JSON (un par illustration) la décision, sa justification et un résumé du texte.
+4. Evaluer les performances.
+
+Variantes : utiliser la bibliothèque Pidantic pour 
+
+## B. Workflow n8n 
 
