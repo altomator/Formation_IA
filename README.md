@@ -258,7 +258,7 @@ _Démarche_ :
 	
 **Pièges Arbres** :
 
-    ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
+ ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
 
 
 ### Avec un LLM : analyse de texte
