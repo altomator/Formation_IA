@@ -1,6 +1,5 @@
-## ROLE##
+## ROLE ##
 Tu travailles dans le secteur de la presse et tu dois traiter des textes extraits d'un magazine féminin.
-
 Ces textes peuvent être des articles (contenus éditoriaux) ou des publicités.
                     
 ## CONTEXTE ## 
