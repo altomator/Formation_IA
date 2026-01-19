@@ -214,13 +214,17 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 _Démarche_ :
 
 1. Etudier la forme des données sur les axes largeur, hauteur, nombre de mots
-2. Utiliser une de ces approche en s’inspirant de ces notebooks :  
+2. Utiliser une de ces approches en s’inspirant des notebooks suivants :  
    
    2.a : SVM avec comme base le notebook [Kaggle](https://www.kaggle.com/code/prashant808/iris-dataset-using-svm))
    
    2.b : Arbre de décision avec comme base le notebook [Kaggle](https://www.kaggle.com/code/sheemamasood/decisiontree-classifier-iris )
 
+Pièges :
 
+<div style="background:black; color:white; padding:12px;">
+This entire block is inverse video styled.
+</div>
 	
 
 
