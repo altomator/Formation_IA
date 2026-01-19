@@ -212,11 +212,15 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 _Démarche_ :
 
 1. Etudier la forme des données sur les axes largeur, hauteur, nombre de mots
-2. Utiliser une approche :
+2. Utiliser une de ces approche en s’inspirant de ces notebooks :  
    
-   2.a : SVM avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html)
+   2.a : SVM avec comme base le notebook [Kaggle](https://www.kaggle.com/code/prashant808/iris-dataset-using-svm))
    
-   2.b : Arbre de décision avec comme base le notebook [Kaggle](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html)
+   2.b : Arbre de décision avec comme base le notebook [Kaggle](https://www.kaggle.com/code/sheemamasood/decisiontree-classifier-iris )
+
+
+	
+
 
     ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
 
