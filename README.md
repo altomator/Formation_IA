@@ -143,24 +143,35 @@ streamlit run clusters.py
 
 ***
 
+
+
 # Ateliers
 
 ## A. Classification d’illustrations 
 
-Objectif : entraîner un classifieur permettant de catégoriser 3 types d'illustrations extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) numérisé dans Gallica :  
+**Objectif** : entraîner un classifieur permettant de catégoriser 3 types d'illustrations extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) numérisé dans Gallica :  
 - couverture
 - double page
 - publicité
 
   ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/m-c.png)
 
+Les données à disposition sont les suivantes :
+- les fichiers images des illustrations numérisées,
+- des données dérivées de ces illustrations :
+  - l'OCR extrait des illustrations
+  - des descripteurs numériques : taille de l'illustration (en pixels) et nombre de mots de l'OCR
+ 
+**Attendus** :
+- Utiliser une des approches suivantes ou toute autre proposition pour classer les types d'illustration.
+- Commenter les résultats obtenus.
 
-Utiliser une des approches suivantes ou toute autre proposition. 
-
-<b>Ressources :</b> 
-- Jeu de données de 170 illustrations : couvertures (30) ; double pages (44) ; publicités (96)
+**Ressources :**
+- 170 illustrations : couvertures (30) ; double pages (44) ; publicités (96)
   - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
-    
+- jeux de données dérivées :
+  - [données numériques au format CSV](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
+  - textes océrisés au format texte
 
 
    
@@ -192,21 +203,26 @@ _Démarche_ :
 
 _Démarche_ :
 
-0. Télécharger le dataset _Marie-Claire_
-1. Importer un dossier d’images puis cliquer sur Save and continue
-2. Option Label Myself
-3. La fenêtre d'annotation s'ouvre, revenir en arrière (on ne veut pas annoter)
-4. Cliquer sur Select all
-5. puis Actions/Batch Label images et créer la classe correspondant au dossier
-6. Ajouter les batchs d’images à un dataset
-7. New version (dataset)
-8. Ajouter de l’augmentation : Gray, Saturation
-9. Train model : VIT
-10. Evaluer le modèle : View Model
+0. Créer un compte Roboflow ou se connecter
+1. Télécharger le dataset _Marie-Claire_
+2. Importer un dossier d’images puis cliquer sur Save and continue
+3. Option Label Myself
+4. La fenêtre d'annotation s'ouvre, revenir en arrière (on ne veut pas annoter)
+5. Cliquer sur Select all
+6. puis Actions/Batch Label images et créer la classe correspondant au dossier
+7. Ajouter les batchs d’images à un dataset
+8. New version (dataset)
+9. Ajouter de l’augmentation : Gray, Saturation
+10. Entrainer le modèle :
+  - Custom
+  - Train model : VIT
+11. Evaluer le modèle : View Model avec des  images du jeu de test ou des images locales (_upload_)
 
 Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https://github.com/altomator/Roboflow). 
 
-
+**Pièges** :
+- avant l'entrainement, vérifier qu'il n'y a que 3 classes
+- performances : la précision est de 100%. Pourquoi ?
 
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
 
@@ -214,7 +230,7 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 ### Avec Kaggle et SciKit
 
 <b>Atelier :</b> 
-- [Jeu de données](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
+- [Jeu de données numériques](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
 - https://kaggle.com
 
 _Démarche_ :
