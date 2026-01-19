@@ -273,7 +273,7 @@ _Démarche_ :
 
 _Démarche_ :
 
-1. Utiliser les classes "Double page" et "Publicité" qui peuvent être ambiguës de par leur contenu textuel. La détection de la classe Couverture est trivial, ne pas la traiter (présence systématique du texte "Marie-Claire").
+1. Utiliser les classes "Double page" et "Publicité" qui peuvent être ambiguës de par leur contenu textuel. La détection de la classe Couverture est triviale, ne pas la traiter (présence systématique du texte "Marie-Claire").
 2. Prompter le LLM pour qu'il produise une décision, sa justification et un résumé du texte.
 3. Stocker dans un fichier JSON (un par illustration).
 4. Evaluer les performances.
