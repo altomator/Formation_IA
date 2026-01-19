@@ -263,7 +263,7 @@ _Démarche_ :
 
 ### Avec un LLM : analyse de texte
 
-**Méthode** : utiliser un LLM en zero shot learning pour classer les illustrations connaissant leur texte océrisé.
+**Méthode** : utiliser un LLM en zero _shot learning_ pour classer les illustrations, connaissant leur texte océrisé.
 
 
 <b>Atelier :</b> 
