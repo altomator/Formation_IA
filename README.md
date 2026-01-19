@@ -267,7 +267,7 @@ _Démarche_ :
 
 
 <b>Atelier :</b> 
-- [Jeu de données textuelles](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
+- [Textes océrisés](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data/ocr.zip)
 - outil de codage Python
 - un LLM en mode API (Mistral)
 
@@ -278,7 +278,9 @@ _Démarche_ :
 3. Stocker dans un fichier JSON (un par illustration).
 4. Evaluer les performances.
 
-Variantes : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM.
+Variantes : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
+- [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
+- [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
 
 
 
