@@ -261,7 +261,7 @@ _Démarche_ :
  ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
 
 
-### Avec un LLM : analyse de texte
+### Avec un LLM : classification de textes
 
 **Méthode** : utiliser un LLM en zero _shot learning_ pour classer les illustrations, connaissant leur texte océrisé.
 
