@@ -187,14 +187,16 @@ _Démarche_ :
 _Démarche_ :
 
 0. Télécharger le dataset _Marie-Claire_
-1. Importer un dossier d’images
-2. Option Label Myself, puis Select all
-3. Actions/Batch Label images et créer la classe
-4. Ajouter les batchs d’images à un dataset
-5. New version (dataset)
-6. Ajouter de l’augmentation : Gray, Saturation
-7. Train model : VIT
-8. Evaluer le modèle : View Model
+1. Importer un dossier d’images puis cliquer sur Save and continue
+2. Option Label Myself
+3. La fenêtre d'annotation s'ouvre, revenir en arrière (on ne veut pas annoter)
+4. Cliquer sur Select all
+5. puis Actions/Batch Label images et créer la classe correspondant au dossier
+6. Ajouter les batchs d’images à un dataset
+7. New version (dataset)
+8. Ajouter de l’augmentation : Gray, Saturation
+9. Train model : VIT
+10. Evaluer le modèle : View Model
 
 Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https://github.com/altomator/Roboflow). 
 
