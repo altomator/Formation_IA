@@ -269,16 +269,16 @@ _Démarche_ :
 <b>Atelier :</b> 
 - [Jeu de données textuelles](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
 - outil de codage Python
-- un LLM en mode API
+- un LLM en mode API (Mistral)
 
 _Démarche_ :
 
 1. Utiliser les classes "Double page" et "Publicité" qui peuvent être ambiguës de par leur contenu textuel. La détection de la classe Couverture est trivial, ne pas la traiter (présence systématique du texte "Marie-Claire").
-2. Prompter le LLM pour qu'il produise un décision.
-3. Stocker dans un fichier JSON (un par illustration) la décision, sa justification et un résumé du texte.
+2. Prompter le LLM pour qu'il produise une décision, sa justification et un résumé du texte.
+3. Stocker dans un fichier JSON (un par illustration).
 4. Evaluer les performances.
 
-Variantes : utiliser la bibliothèque Pidantic pour 
+Variantes : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM.
 
-## B. Workflow n8n 
+
 
