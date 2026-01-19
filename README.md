@@ -167,7 +167,7 @@ Utiliser une des approches suivantes ou toute autre proposition.
 ### Avec Kaggle et Keras
 
 <b>Atelier :</b> 
-- Notebook Kaggle de classification d'images d'iris : [Kaggle](https://www.kaggle.com/code/jpmoreux/marie-claire-tf-cnn/)
+- Notebook Kaggle de classification d'images d'iris : [Kaggle](https://www.kaggle.com/code/tracyporter/iris-tf-cnn)
 
 _Démarche_ :
 
