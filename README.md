@@ -277,7 +277,7 @@ _Démarche_ :
 
 
 <b>Atelier :</b> 
-- [Textes océrisés](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data/ocr.zip)
+- [Textes océrisés](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data/mc-ocr.zip)
 - outil de codage Python
 - LLM en mode API (Mistral)
 
