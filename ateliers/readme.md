@@ -18,4 +18,8 @@ https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
 
 ### Python LLM Marie-Claire
 
-https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
+Script de traitement des textes :
+https://github.com/altomator/Formation_IA/tree/main/ateliers/code/extract_genre.py
+
+Exemple d'utilisation de Pydantic :
+https://github.com/altomator/Formation_IA/tree/main/ateliers/code/mistral-pydantic.py
