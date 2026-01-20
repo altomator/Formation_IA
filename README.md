@@ -282,5 +282,14 @@ Option : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
 - [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
 - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
 
+### BILAN
+
+| Approche  | Performances          | Commentaires |
+| :--------------- |---------------:| :-----:|
+| CNN   |   ce texte        |  Aligné à droite |
+| SVM  | est             |   Aligné à droite |
+| Arbre de décision  | centré          |    Aligné à droite |
+
+## B. n8n
 
 
