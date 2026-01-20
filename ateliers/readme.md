@@ -22,4 +22,4 @@ Script de traitement des textes :
 https://github.com/altomator/Formation_IA/tree/main/ateliers/code/extract_genre.py
 
 Exemple d'utilisation de Pydantic :
-https://github.com/altomator/Formation_IA/tree/main/ateliers/code/mistral-pydantic.py
+https://github.com/altomator/Formation_IA/tree/main/ateliers/code/mistral_pydantic.py
