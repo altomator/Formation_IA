@@ -196,7 +196,9 @@ _Démarche_ :
 
 - Lecture des images : attention à l'arborescence des dossiers (`data_dir = ...`)
 
-  
+  ![Courbe de perte durant l'apprentissage](https://github.com/altomator/Formation_IA/blob/main/cnn/m-c.png)
+
+
 ### Avec Roboflow : analyse d'images
 
 **Méthode** : entraîner un modèle CNN par transfert learning avec une plateforme IA.
@@ -224,8 +226,8 @@ _Démarche_ :
 Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https://github.com/altomator/Roboflow). 
 
 **Pièges** :
-- avant l'entrainement, vérifier qu'il n'y a que 3 classes
-- performances : la précision est de 100%. Pourquoi ?
+- Avant l'entrainement, vérifier qu'il n'y a bien que 3 classes dans le dataset Roboflow.
+- Performances : la précision est de 100%. Pourquoi ?
 
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
 
