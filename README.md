@@ -281,6 +281,7 @@ _Démarche_ :
 - outil de codage Python
 - LLM en mode API (Mistral)
 - clé : "qT4ZADzNuabqm2JmmT1erkLotuuZATfC"
+- exemple Python : https://github.com/altomator/Formation_IA/blob/main/ateliers/exemple.py
 
 _Démarche_ :
 
