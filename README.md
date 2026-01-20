@@ -253,7 +253,7 @@ _Démarche_ :
 2. Le copier et l'éditer
 3. Etudier la forme des données sur les axes largeur, hauteur, nombre de mots (utiliser `matplotlib.pyplot`)
 4. Lancer l'entrainement
-5. Etudier les performances
+5. Etudier les performances avec le calcul de métriques adaptées
 
 **Pièges SVM** :
 
@@ -275,22 +275,42 @@ _Démarche_ :
 
 **Méthode** : utiliser un LLM en zero _shot learning_ pour classer les illustrations, connaissant leur texte océrisé.
 
+Notes : 
+- La détection de la classe Couverture est triviale, ne pas la traiter (présence systématique du texte "Marie-Claire"). La confusion "couverture" et "publicité" des méthodes précédentes serait donc résolue. 
+- Par contre, les double page éditoriales et les publicités peuvent être ambiguës de par leur contenu textuel, certaines éditoriaux présentant des produits commerciaux.
 
 <b>Atelier :</b> 
 - [Textes océrisés](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data/mc-ocr.zip)
 - outil de codage Python
-- LLM en mode API (Mistral)
-- clé : "qT4ZADzNuabqm2JmmT1erkLotuuZATfC"
-- exemple Python : https://github.com/altomator/Formation_IA/blob/main/ateliers/exemple.py
+- LLM en mode API (voir les modèles Mistral [ici](https://docs.mistral.ai/getting-started/models))
+- clé d'API Mistral
+- exemple de code Python d'appel d'un modèle [Mistral](https://github.com/altomator/Formation_IA/blob/main/ateliers/exemple.py)
 
 _Démarche_ :
 
-1. Utiliser les classes "Double page" et "Publicité" qui peuvent être ambiguës de par leur contenu textuel. La détection de la classe Couverture est triviale, ne pas la traiter (présence systématique du texte "Marie-Claire").
-2. Prompter le LLM pour qu'il produise une décision, sa justification et un résumé du texte.
-3. Stocker dans un fichier JSON (un par illustration).
-4. Evaluer les performances.
+1. Utiliser les fichiers OCR des dossiers "Publicité" et "Editorial".
+2. Prompter le LLM pour qu'il produise une décision ("publicité" ou "éditorial"), sa justification et un résumé du texte.
+3. Stocker la sortie du modèle dans un fichier JSON (un par fichier texte).
+4. Stocker la décision du modèle dans un fichier CSV (une ligne par fichier), avec le nom du fichier et le nom du répertoire.
+5. Evaluer les performances à la fin du script, en lisant le fichier CSV. Il faut comparer la décision du modèle et le nom du dossier.
 
-Option : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
+Appel du script :
+```
+>python extract_genre.py publicité/
+```
+Sortie du script (exemple pour un dossier "publicité") :
+```
+...
+bpt6k4701039n_14.txt == publicité  GREAT!
+bpt6k47010424_58.txt == publicité  GREAT!
+bpt6k47013336_12.txt should be publicité
+bpt6k4701076x_45.txt == publicité  GREAT!
+---------------------
+93 correct predictions out of 96 predictions
+Accuracy: 96.88%
+```
+
+_Option_ : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
 - [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
 - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
 
