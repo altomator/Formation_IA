@@ -260,7 +260,12 @@ _Démarche_ :
 - Lecture du fichier CSV : le caractère délimiteur est ';'.
 - Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec `df.drop()`. `x` doit ne contenir que des valeurs numériques.
 - Evaluation du modèle : ajouter le calcul de la matrice de confusion ([exemple](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html))
-	
+
+
+	![Matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/svm-matrix.png)
+
+
+
 **Pièges Arbres** :
 
  ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
@@ -291,9 +296,9 @@ Option : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
 
 | Approche  | Performances          | Commentaires |
 | :--------------- |---------------:| :-----:|
-| CNN   |   82%       |  Performances calculée d'après peu de données (17). Confusion entre couvertures et publicités |
-| SVM  | est             |   Aligné à droite |
-| Arbre de décision  | centré          |    Aligné à droite |
+| CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion majoritaire entre couvertures et publicités |
+| SVM  | 80%             |   Performances calculées d'après peu de données. Confusion systématique entre couvertures et publicités ? |
+| Arbre de décision  |           |     |
 
 ## B. n8n
 
