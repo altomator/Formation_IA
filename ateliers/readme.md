@@ -15,3 +15,7 @@ https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
 
  ![Courte de perte](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/3d.png)
 
+
+### Python LLM Marie-Claire
+
+https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
