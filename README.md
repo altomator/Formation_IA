@@ -196,10 +196,10 @@ _Démarche_ :
 
 - Lecture des images : attention à l'arborescence des dossiers (`data_dir = ...`)
 
-  ![Courbe de perte durant l'apprentissage](https://github.com/altomator/Formation_IA/blob/main/cnn/cnn-loss.png)
+  ![Courbe de perte durant l'apprentissage](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-loss.png)
 
   
-![Inférence sur l'ensemble de test](https://github.com/altomator/Formation_IA/blob/main/cnn/cnn-test.png)
+![Inférence sur l'ensemble de test](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-test.png)
 
 
 ### Avec Roboflow : analyse d'images
