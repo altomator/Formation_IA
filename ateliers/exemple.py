@@ -30,13 +30,7 @@ def call_mistral_api(prompt_content, file_path):
         )
         llm_answer = chat_response.choices[0].message.content
         print("...llm_answer:", llm_answer)
-        try:
-            extraction = Rapport.model_validate_json(llm_answer)
-            print("\033[92mValidated:\033[m", extraction)
-            return llm_answer
-        except ValidationError as e:
-            print(f"\033[91mValidation error: {e}\033[m")
-            return None
+        return llm_answer
 
 
 
