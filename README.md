@@ -288,13 +288,13 @@ Notes :
 
 _Démarche_ :
 
-1. Utiliser les fichiers OCR des dossiers "Publicité" et "Editorial".
+1. Utiliser les fichiers OCR des dossiers "publicité" et "éditorial".
 2. Prompter le LLM pour qu'il produise une décision ("publicité" ou "éditorial"), sa justification et un résumé du texte.
 3. Stocker la sortie du modèle dans un fichier JSON (un par fichier texte).
 4. Stocker la décision du modèle dans un fichier CSV (une ligne par fichier), avec le nom du fichier et le nom du répertoire.
 5. Evaluer les performances à la fin du script, en lisant le fichier CSV. Il faut comparer la décision du modèle et le nom du dossier.
 
-Appel du script :
+Appel du script (exemple) :
 ```
 >python extract_genre.py publicité/
 ```
@@ -303,17 +303,20 @@ Sortie du script (exemple pour un dossier "publicité") :
 ...
 bpt6k4701039n_14.txt == publicité  GREAT!
 bpt6k47010424_58.txt == publicité  GREAT!
-bpt6k47013336_12.txt should be publicité
+#bpt6k47013336_12.txt should be 'publicité'#
 bpt6k4701076x_45.txt == publicité  GREAT!
 ---------------------
 93 correct predictions out of 96 predictions
 Accuracy: 96.88%
 ```
 
-_Option_ : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
-- [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
-- [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
+_Option_ : 
+- Utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
+  - [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
+  - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
+- Calculer une précision globale et non uniquement par classe
 
+  
 ### BILAN
 
 | Approche  | Performances          | Commentaires |
@@ -321,6 +324,7 @@ _Option_ : utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM
 | CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion majoritaire entre couvertures et publicités |
 | SVM  | 80%             |   Performances calculées d'après peu de données. Confusion systématique entre couvertures et publicités ? |
 | Arbre de décision  |           |     |
+| LLM  |    98% publicités       |     |
 
 ## B. n8n
 
