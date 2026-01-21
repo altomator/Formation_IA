@@ -321,9 +321,9 @@ _Option_ :
 
 | Approche  | Performances          | Commentaires |
 | :--------------- |---------------:| :-----:|
-| CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion majoritaire entre couvertures et publicités |
-| SVM  | 80%             |   Performances calculées d'après peu de données. Confusion systématique entre couvertures et publicités ? |
-| Arbre de décision  |           |     |
+| CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
+| SVM  | 85%             |   Performances calculées d'après peu de données. Confusion entre couvertures et publicités |
+| Arbre de décision  | 79.5%          |     |
 | LLM  |    98% publicités       |     |
 
 ## B. n8n
