@@ -1,31 +1,26 @@
 ## Atelier classification d'illustrations
 
-### Notebook Kaggle / CNN Marie-Claire
-
-https://www.kaggle.com/code/jpmoreux/marie-claire-TF-CNN
-
  ![Datasets Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-test.png)
+
+
+### Notebook Kaggle / CNN Marie-Claire
 
  ![Courte de perte](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-loss.png)
 
 
 ### Notebook Kaggle / SVM Marie-Claire
 
-https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
-
  ![Courte de perte](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/3d.png)
 
 ### Notebook Kaggle / Arbre de décision Marie-Claire
-
-https://www.kaggle.com/code/jpmoreux/marie-claire-decision-tree-classifier
 
  ![Arbre](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/tree-full.png)
 
 
 ### Python LLM Marie-Claire
 
-Script de classification des textes :
-https://github.com/altomator/Formation_IA/tree/main/ateliers/code/extract_genre.py
+[Script](https://github.com/altomator/Formation_IA/tree/main/ateliers/code/extract_genre.py) de classification des textes 
 
-Exemple d'utilisation de Pydantic :
-https://github.com/altomator/Formation_IA/tree/main/ateliers/code/mistral_pydantic.py
+
+[Exemple](https://github.com/altomator/Formation_IA/tree/main/ateliers/code/mistral_pydantic.py) d'utilisation de [Pydantic 
+
