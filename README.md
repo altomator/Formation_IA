@@ -142,7 +142,7 @@ streamlit run clusters.py
 [Démo web d'un VAE]((https://xnought.github.io/vq-vae-explainer/)
 
 ***
-
+***
 
 
 # Ateliers
@@ -330,6 +330,10 @@ _Option_ :
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
 | LLM  |    98% publicités       |     |
 
-## B. n8n
+***
 
+## B. Workflow IA avec n8n
 
+### Veille technologique
+
+### Reproduire l'atelier de classification de textes
