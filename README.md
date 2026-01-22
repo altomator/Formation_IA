@@ -240,10 +240,12 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
 
 **Méthode** : entraîner un modèle à partir des données dérivées numériques (largeur, hauteur, nombre de mots).
 
-
 <b>Atelier :</b> 
 - [Jeu de données numériques](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
 - https://kaggle.com
+
+ ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
+
 
 _Démarche_ :
 
@@ -265,12 +267,12 @@ _Démarche_ :
 	![Matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/svm-matrix.png)
 
 
-
 **Pièges Arbres** :
 - Lecture du fichier CSV : le caractère délimiteur est ';'.
 - Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec `df.drop()`. `x` doit ne contenir que des valeurs numériques. Il faut aussi supprimer la colonne cible (`y`, colonne 'classes')
+  
 
- ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
+	![Matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/tree.png)
 
 
 ### Avec un LLM : classification de textes
