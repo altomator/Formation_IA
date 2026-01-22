@@ -176,7 +176,7 @@ Les données à disposition sont les suivantes :
 
 
    
-### Avec Kaggle et Keras : analyse d'images
+### A.1 — Avec Kaggle et Keras : analyse d'images
 
 **Méthode** : entraîner un modèle CNN par transfert learning avec un notebook.
 
@@ -203,7 +203,7 @@ _Démarche_ :
 ![Inférence sur l'ensemble de test](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-test.png)
 
 
-### Avec Roboflow : analyse d'images
+### A.2 — Avec Roboflow : analyse d'images
 
 **Méthode** : entraîner un modèle CNN par transfert learning avec une plateforme IA.
 
@@ -236,7 +236,7 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
 
 
-### Avec Kaggle et SciKit : analyse de données
+### A.3 — Avec Kaggle et SciKit : analyse de données
 
 **Méthode** : entraîner un modèle à partir des données dérivées numériques (largeur, hauteur, nombre de mots).
 
@@ -275,7 +275,7 @@ _Démarche_ :
 	![Matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/tree.png)
 
 
-### Avec un LLM : classification de textes
+### A.4 — Avec un LLM : classification de textes
 
 **Méthode** : utiliser un LLM en zero _shot learning_ pour classer les images, connaissant leur texte océrisé.
 
@@ -320,7 +320,7 @@ _Option_ :
   - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
 - Calculer une précision globale et non uniquement par classe
 
-### Avec un VLM : classification avec un modèle multimodal
+### A.5 — Avec un VLM : classification avec un modèle multimodal
 
 **Méthode** : utiliser un VLM en zero _shot learning_ pour classer les images.
 
@@ -340,6 +340,8 @@ _Option_ :
 
 ## B. Workflow IA avec n8n
 
-### Veille technologique
+### B.1 — Veille technologique
 
-### Reproduire l'atelier de classification de textes
+Utiliser le template : 
+
+### B.1 — Reproduire l'atelier de classification de textes
