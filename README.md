@@ -318,7 +318,6 @@ _Option_ :
 - Utiliser la bibliothèque Pydantic pour valider la sortie JSON du LLM :
   - [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
   - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
-- Calculer une précision globale et non uniquement par classe
 
 ### A.5 — Avec un VLM : classification avec un modèle multimodal
 
@@ -333,8 +332,9 @@ _Option_ :
 | CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
-| LLM  |    98% publicités       |     |
-| VLM  |    98% publicités / 86% éditoriaux      |     |
+| LLM  |    97% publicités / 86% éditoriaux      |  Total : / publicités 93/96 ; 38/44 éditoriaux. Moyenne : 93%  |
+| VLM  |          |     |
+
 
 ***
 
