@@ -277,7 +277,7 @@ _Démarche_ :
 
 ### Avec un LLM : classification de textes
 
-**Méthode** : utiliser un LLM en zero _shot learning_ pour classer les illustrations, connaissant leur texte océrisé.
+**Méthode** : utiliser un LLM en zero _shot learning_ pour classer les images, connaissant leur texte océrisé.
 
 Notes : 
 - La détection de la classe Couverture est triviale, ne pas la traiter (présence systématique du texte "Marie-Claire"). La confusion "couverture" et "publicité" des méthodes précédentes serait donc résolue. 
@@ -320,7 +320,12 @@ _Option_ :
   - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
 - Calculer une précision globale et non uniquement par classe
 
-  
+### Avec un VLM : classification avec un modèle multimodal
+
+**Méthode** : utiliser un VLM en zero _shot learning_ pour classer les images.
+
+
+
 ### BILAN
 
 | Approche  | Performances          | Commentaires |
@@ -329,6 +334,7 @@ _Option_ :
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
 | LLM  |    98% publicités       |     |
+| VLM  |    98% publicités       |     |
 
 ***
 
