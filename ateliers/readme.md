@@ -1,9 +1,10 @@
 ## Atelier classification d'illustrations
 
- ![Datasets Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-test.png)
 
 
 ### Notebook Kaggle / CNN Marie-Claire
+
+ ![Datasets Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-test.png)
 
  ![Courte de perte](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/cnn-loss.png)
 
