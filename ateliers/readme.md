@@ -1,4 +1,4 @@
-## Atelier classification d'illustrations
+## Atelier classification d'images
 
 
 
@@ -18,7 +18,7 @@
  ![Arbre](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/tree-full.png)
 
 
-### Python LLM Marie-Claire
+### LLM Marie-Claire
 
 [Script](https://github.com/altomator/Formation_IA/tree/main/ateliers/code/extract_genre.py) de classification des textes 
 
