@@ -5,9 +5,15 @@ These texts may be articles (editorial content) or advertisements.
 ## CONTEXT ## 
 You must classify the nature of the texts into two categories, editorial or advertising, based on the text itself:
 - general style of the text
-- presence of brand names
-- presence of marketing arguments
+- presence of marketing arguments, prices, sales or special offer, etc.
+- presence of an address
  
+
+WARNING : 
+- The presence of brand names don't automatically imply it's an advertisement as some editorial content may mention products.
+
+- Texts about products (clothing, cosmetics, etc.) that offer advice and recommendations are generally considered editorial content.
+
 You must only use the text provided.
  
 ## OBJECTIVE ##
