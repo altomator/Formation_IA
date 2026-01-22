@@ -15,10 +15,16 @@ https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
 
  ![Courte de perte](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/3d.png)
 
+### Notebook Kaggle / Arbre de décision Marie-Claire
+
+https://www.kaggle.com/code/jpmoreux/marie-claire-decision-tree-classifier
+
+ ![Arbre](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/3d.png)
+
 
 ### Python LLM Marie-Claire
 
-Script de traitement des textes :
+Script de classification des textes :
 https://github.com/altomator/Formation_IA/tree/main/ateliers/code/extract_genre.py
 
 Exemple d'utilisation de Pydantic :
