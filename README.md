@@ -149,18 +149,19 @@ streamlit run clusters.py
 
 ## A. Classification d’illustrations 
 
-**Objectif** : entraîner un classifieur permettant de catégoriser 3 types d'illustrations extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) numérisé dans Gallica :  
-- couverture
-- double page
-- publicité
+**Objectif** : entraîner un classifieur permettant de catégoriser trois types de pages extraites du magazine [_Marie-Claire_](https://gallica.bnf.fr/ark:/12148/cb343488519/date) numérisé dans Gallica :  
+- page de couverture
+- double page éditoriale
+- page de publicité
 
   ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/m-c.png)
 
 Les données à disposition sont les suivantes :
-- les fichiers images des illustrations numérisées,
-- des données dérivées de ces illustrations :
-  - l'OCR extrait des illustrations
-  - des descripteurs numériques : taille de l'illustration (en pixels) et nombre de mots de l'OCR
+- les fichiers images des pages numérisées,
+- des données dérivées de ces pages :
+  - des descripteurs numériques : taille de l'image (en pixels) et nombre de mots de l'OCR de la page
+  - l'OCR extrait des pages
+
  
 **Attendus** :
 - Utiliser une des approches suivantes ou toute autre proposition pour classer les types d'illustration.
@@ -171,7 +172,7 @@ Les données à disposition sont les suivantes :
   - [https://github.com/altomator/Formation_IA/tree/main/cnn/marie-claire_img](https://github.com/altomator/Formation_IA/tree/main/marie-claire_img)
 - jeux de données dérivées :
   - [données numériques au format CSV](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
-  - textes océrisés au format texte
+  - [textes océrisés au format JSON](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data)
 
 
    
