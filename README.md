@@ -236,9 +236,9 @@ Option : utiliser le modèle en inférence. Voir exemple [ici (section 4)](https
  ![Illustrations Marie-Claire](https://github.com/altomator/Formation_IA/blob/main/cnn/roboflow.png)
 
 
-### Avec Kaggle et SciKit : : analyse de données
+### Avec Kaggle et SciKit : analyse de données
 
-**Méthode** : entraîner un modèle à partir de données dérivées numériques.
+**Méthode** : entraîner un modèle à partir des données dérivées numériques (largeur, hauteur, nombre de mots).
 
 
 <b>Atelier :</b> 
@@ -259,15 +259,16 @@ _Démarche_ :
 **Pièges SVM** :
 
 - Lecture du fichier CSV : le caractère délimiteur est ';'.
-- Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec `df.drop()`. `x` doit ne contenir que des valeurs numériques.
+- Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec `df.drop()`. `x` doit ne contenir que des valeurs numériques. Il faut aussi supprimer la colonne cible (`y`, colonne 'classes')
 - Evaluation du modèle : ajouter le calcul de la matrice de confusion ([exemple](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html))
-
 
 	![Matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/svm-matrix.png)
 
 
 
 **Pièges Arbres** :
+- Lecture du fichier CSV : le caractère délimiteur est ';'.
+- Préparation des données : il faut supprimer les colonnes de données inutiles pour l'entrainement (chemin, orientation...) avec `df.drop()`. `x` doit ne contenir que des valeurs numériques. Il faut aussi supprimer la colonne cible (`y`, colonne 'classes')
 
  ![Visualisation des données](https://github.com/altomator/Formation_IA/blob/main/marie-claire_data/3d.png)
 
