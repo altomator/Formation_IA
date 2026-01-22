@@ -19,7 +19,7 @@ https://www.kaggle.com/code/jpmoreux/marie-claire-dataset-using-svm
 
 https://www.kaggle.com/code/jpmoreux/marie-claire-decision-tree-classifier
 
- ![Arbre](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/3d.png)
+ ![Arbre](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/tree-full.png)
 
 
 ### Python LLM Marie-Claire
