@@ -334,7 +334,7 @@ _Option_ :
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
 | LLM  |    98% publicités       |     |
-| VLM  |    98% publicités       |     |
+| VLM  |    98% publicités / 77% éditoriaux      |     |
 
 ***
 
