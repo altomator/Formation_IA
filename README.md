@@ -76,7 +76,7 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 - [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
 - Source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
 
-2. Calculer l'arbre de décision avec le [notebook](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (utiliser JupyterLite)
+Calculer l'arbre de décision avec le [notebook](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (utiliser JupyterLite)
 
    ![Visualisation de l'arbre de décision](https://github.com/altomator/Formation_IA/blob/main/arbre/arbre.png)
 
@@ -110,7 +110,7 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
-1. Etudier le processus d'entrainement du Perceptron avec les paramètres suivants : [Démo web Tensorflow](https://playground.tensorflow.org)
+Etudier le processus d'entrainement d'un Perceptron avec les paramètres suivants : [Démo web Tensorflow](https://playground.tensorflow.org)
 - Problème = classification
 - Paramètres :
   - Fonction d’activation RELU ou sigmoïde
@@ -118,7 +118,6 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
   - 1 couche cachée, 2 Perceptrons par couche
 - Données :
   - concentriques
-
 
 
 <b>Atelier Python : Perceptron multicouche </b>
@@ -141,7 +140,7 @@ Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées
 
 <i>Section "D. Comprendre les images" du support de cours</i>
 
-[Démo web CNN](https://poloclub.github.io/cnn-explainer/)
+Etudier l'architecture du réseau et la couche de sortie (_softmax_) : [Démo web CNN](https://poloclub.github.io/cnn-explainer/)
 
 ## Entrainement d'un CNN avec Kaggle
 
@@ -166,15 +165,15 @@ Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
-Paramétrage [Démo web](https://clustering-visualizer.web.app/kmeans) :
-- algorithme Kmeans
+Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
+- algorithme K-Means
 - outil : pinceau
   
       ![Kmeans](https://github.com/altomator/Formation_IA/blob/main/ateliers/kmeans/kmeans.png)
 
 
-<b>Atelier :</b> 
-- [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
+<b>Atelier Python :</b> 
+- [Github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 - Source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
 - Jeu de données :  [15 000 notices BnF (21e siècle)](https://github.com/altomator/Formation_IA/blob/main/kmeans/21e_15k_titre-auteur-sujet.txt)
 
