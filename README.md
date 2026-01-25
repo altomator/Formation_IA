@@ -177,6 +177,55 @@ Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
 ![Kmeans](https://github.com/altomator/Formation_IA/blob/main/kmeans/kmeans.png)
 
 
+
+## Auto-encodeur
+
+[Démo web d'un VAE : chiffres](https://xnought.github.io/vq-vae-explainer/)
+
+[Démo web d'un VAE : dessin au trait](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
+
+
+<br>
+
+# TAL
+
+## Reconnaissance d'entités nommées
+
+<i>Section "E. Comprendre le langage" du support de cours</i>
+
+
+[Démo web NER : TextRazor](https://www.textrazor.com/demo)
+
+<b>Atelier Python :</b> 
+- Source : [NER avec Random forests et CRF](https://www.kaggle.com/code/jpmoreux/ner-using-crf/)
+- Jeu de données :  [Kaggle](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
+
+
+1. Se connecter sur kaggle.com
+2. Ouvrir le [notebook](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/) 
+3. Cliquer sur Copy & Edit notebook
+4. Exécuter cellule par cellule les approches Random Forests puis CRF (Conditional Random Field). Pour CRF, étudier les _features_.
+
+![CRF](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/crf.png)
+
+
+## Réseaux récurrents
+
+<i>Section "F. Modèles de langue" du support de cours</i>
+
+[Démo web d'entrainement d'un RNN (addition de nombres) : TextRazor](https://storage.googleapis.com/tfjs-examples/addition-rnn/dist/index.html)
+
+[Démo web d'entrainement d'un LSTM](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
+
+
+## Modèles de langue
+
+<i>Section "F. Modèles de langue" du support de cours</i>
+
+[Démo web de word embedding](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo)
+
+[Démo web de word embedding](https://projector.tensorflow.org/)
+
 <b>Atelier Python :</b> 
 - [Github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 - Source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
@@ -205,52 +254,6 @@ streamlit run clusters.py
 - Définir le répertoire de travail (local)
 
 5. Cliquer sur l'onglet "Analyse de données"
-
-## Auto-encodeur
-
-[Démo web d'un VAE : chiffres](https://xnought.github.io/vq-vae-explainer/)
-
-[Démo web d'un VAE : dessin au trait](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
-
-
-<br>
-
-# TAL
-
-## Reconnaissance d'entités nommées
-
-<i>Section "E. Comprendre le langage " du support de cours</i>
-
-
-[Démo web NER : TextRazor](https://www.textrazor.com/demo)
-
-<b>Atelier Python :</b> 
-- Source : [Analyse textuelle avec K-means](https://www.kaggle.com/code/jpmoreux/ner-using-crf/)
-- Jeu de données :  [Kaggle](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
-
-
-1. Se connecter sur kaggle.com
-2. Ouvrir le [notebook](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/) 
-3. Cliquer sur Copy & Edit notebook
-4. Exécuter cellule par cellule les approches Random Forests puis CRF (Conditional Random Field). Pour CRF, étudier les _features_.
-
-![CRF](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/crf.png)
-
-
-## Réseaux récurrents
-
-
-[Démo web d'entrainement d'un RNN (addition de nombres) : TextRazor](https://storage.googleapis.com/tfjs-examples/addition-rnn/dist/index.html)
-
-[Démo web d'entrainement d'un LSTM](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
-
-
-## Modèles de langue
-
-[Démo web de word embedding](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo)
-
-[Démo web de word embedding](https://projector.tensorflow.org/)
-
 
 
 <br>
