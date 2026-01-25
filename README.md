@@ -169,7 +169,7 @@ Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
 - algorithme K-Means
 - outil : pinceau
   
-![Kmeans](https://github.com/altomator/Formation_IA/blob/main/ateliers/kmeans/kmeans.png)
+![Kmeans](https://github.com/altomator/Formation_IA/blob/main/kmeans/kmeans.png)
 
 
 <b>Atelier Python :</b> 
