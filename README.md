@@ -85,6 +85,8 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
+Etudier le processus d'entrainement du Perceptron.
+
 [Démo web Loria](https://mlweb.loria.fr/book/en/perceptron.html)
 
 [Démo web Tensorflow](https://playground.tensorflow.org)
@@ -94,6 +96,18 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 ## Perceptron multicouche (avec keras)
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
+
+Etudier le processus d'entrainement du Perceptron avec les paramètres suivants :
+- Problème = classification
+- Paramètres :  
+  - 2 entrées
+  - 0 couche cachée
+  - Activation = Linear
+- Données :
+  - Dataset linéairement séparable (gaussien)
+  - Bruit = 0
+
+
 
 [Démo web Tensorflow](https://playground.tensorflow.org)
 
