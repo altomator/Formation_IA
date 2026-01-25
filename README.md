@@ -89,14 +89,6 @@ Etudier le processus d'entrainement du Perceptron.
 
 [Démo web Loria](https://mlweb.loria.fr/book/en/perceptron.html)
 
-[Démo web Tensorflow](https://playground.tensorflow.org)
-
-
-
-## Perceptron multicouche (avec keras)
-
-<i>Section "C. Apprentissage machine" du support de cours</i>
-
 Etudier le processus d'entrainement du Perceptron avec les paramètres suivants :
 - Problème = classification
 - Paramètres :  
@@ -106,6 +98,16 @@ Etudier le processus d'entrainement du Perceptron avec les paramètres suivants 
 - Données :
   - Dataset linéairement séparable (gaussien)
   - Bruit = 0
+
+[Démo web Tensorflow](https://playground.tensorflow.org)
+
+   ![Perceptron](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/perceptron.png)
+
+
+## Perceptron multicouche (avec keras)
+
+<i>Section "C. Apprentissage machine" du support de cours</i>
+
 
 
 
