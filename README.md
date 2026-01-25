@@ -17,7 +17,7 @@ Plan :
 
 - Source : [Régression linéaire](https://developers.google.com/machine-learning/crash-course/linear-regression/parameters-exercise?hl=fr) (developers.google.com)
 
-1. Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimise la perte MSE (_Mean squared error_).
+Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimise la perte MSE (_Mean squared error_).
    
    ![Régression linéaire](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/mse.png)
 
@@ -27,9 +27,9 @@ Plan :
 
 - Source : [Seuil et matrice de confusion](https://developers.google.com/machine-learning/crash-course/classification/thresholding?hl=fr) (developers.google.com)
 
-   1. Faire varier le seuil.
-   2. Etudier l'effet du seuil sur les vrais et faux positifs et négatifs.
-   3. Tester les ensembles de données "différencié", "non séparé" et "déséqulibré".
+1. Faire varier le seuil.
+2. Etudier l'effet du seuil sur les vrais et faux positifs et négatifs.
+3. Tester les ensembles de données "différencié", "non séparé" et "déséqulibré".
   
       ![Seuil de classification](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/seuil.png)
 
