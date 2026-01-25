@@ -107,14 +107,25 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
+1. Etudier le processus d'entrainement du Perceptron avec les paramètres suivants : [Démo web Tensorflow](https://playground.tensorflow.org)
+
+- Problème = classification
+- Paramètres :
+  - Fonction d’activation RELU ou sigmoïde
+  - 2 entrées
+  - 1 couche cachée, 2 Perceptrons par couche
+- Données :
+  - concentriques
 
 
 
-[Démo web Tensorflow](https://playground.tensorflow.org)
-
-<b>Atelier Perceptron multicouche :</b>
+<b>Atelier Perceptron multicouche </b>
 - [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
 - Source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
+
+Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées, 4 neurones par couche 
+
+   ![Réseau](https://github.com/altomator/Formation_IA/blob/main/perceptron/reseau.png)
 
 1. Télécharger le notebook.
 2. Le charger dans Google Colab.
