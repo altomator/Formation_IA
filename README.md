@@ -101,7 +101,7 @@ Etudier le processus d'entrainement du Perceptron avec les paramètres suivants 
 
 [Démo web Tensorflow](https://playground.tensorflow.org)
 
-   ![Perceptron](https://github.com/altomator/Formation_IA/blob/main/ateliers/perceptron/perceptron.png)
+   ![Perceptron](https://github.com/altomator/Formation_IA/blob/main/perceptron/perceptron.png)
 
 
 ## Perceptron multicouche (avec keras)
