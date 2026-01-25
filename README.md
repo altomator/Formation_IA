@@ -15,7 +15,7 @@ Plan :
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
 
-- [github](https://github.com/altomator/Formation_IA/tree/main/iris)
+- [Github](https://github.com/altomator/Formation_IA/tree/main/iris)
 - Source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
 
 1. Visualiser le dataset avec [iris_dataset.py ](https://github.com/altomator/Formation_IA/blob/main/iris/iris_dataset.py), en affichant les variables longueur/largeur pour les pétales et les sétales.
@@ -24,7 +24,7 @@ Plan :
 
 > L'espèce Setosa est caractérisée par une petite taille de pétales.
    
-3. Calculer la matrice de confusion avec le [notebook](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (utiliser JupyterLite - bouton <b>Launch Lite</b> — ou tout autre application compatible)
+2. Calculer la matrice de confusion avec le [notebook](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (utiliser JupyterLite - bouton <b>Launch Lite</b> — ou tout autre application compatible)
 
    ![Visualisation de la matrice de confusion](https://github.com/altomator/Formation_IA/blob/main/iris/matrice.png)
 
