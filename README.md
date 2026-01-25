@@ -5,7 +5,7 @@ Plan :
 - [*Introduction*](#introduction)
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
-- TAL
+- [*TAL*](#tal)
 - [*Ateliers*](#ateliers)
 
 ***
@@ -212,6 +212,7 @@ streamlit run clusters.py
 [Démo web d'un VAE : dessin au trait](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
 
 
+<br>
 
 # TAL
 
