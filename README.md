@@ -19,7 +19,7 @@ Plan :
 
 1. Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimise la perte MSE (_Mean squared error_).
    
-   ![Visualisation des variables pétale (longueur, largeur)](https://github.com/altomator/Formation_IA/blob/main/iris/mse.png)
+   ![Visualisation des variables pétale (longueur, largeur)](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/mse.png)
 
    
 ## Matrice de confusion
