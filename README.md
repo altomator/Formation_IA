@@ -226,6 +226,11 @@ Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
 
 [Démo web de word embedding](https://projector.tensorflow.org/)
 
+
+## Embedding de texte et clusterisation
+
+<i>Sections C. et F. du support de cours</i>
+
 <b>Atelier Python :</b> 
 - [Github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
 - Source : [Analyse textuelle avec K-means](https://www.codeandcortex.fr/analyse-textuelle-kmeans/) (Stéphane Meurisse)
