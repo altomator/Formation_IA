@@ -15,13 +15,25 @@ Plan :
 
 <i>Section "A. Apprentissage machine" du support de cours</i>
 
-- Source : [Régression linéaire:](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
+- Source : [Régression linéaire](https://developers.google.com/machine-learning/crash-course/linear-regression/parameters-exercise?hl=fr) (developers.google.com)
 
 1. Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimise la perte MSE (_Mean squared error_).
    
-   ![Visualisation des variables pétale (longueur, largeur)](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/mse.png)
+   ![Régression linéaire](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/mse.png)
 
-   
+## Seuil de classification 
+
+<i>Section "A. Apprentissage machine" du support de cours</i>
+
+- Source : [Seuil et matrice de confusion](https://developers.google.com/machine-learning/crash-course/classification/thresholding?hl=fr) (developers.google.com)
+
+   1. Faire varier le seuil.
+   2. Etudier l'effet du seuil sur les vrais et faux positifs et négatifs.
+   3. Tester les ensembles de données "différencié", "non séparé" et "déséqulibré".
+  
+      ![Seuil de classification](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/seuil.png)
+
+
 ## Matrice de confusion
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
