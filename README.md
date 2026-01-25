@@ -11,12 +11,23 @@ Plan :
 
 # Introduction
 
+## Régression linéaire et perte 
+
+<i>Section "A. Apprentissage machine" du support de cours</i>
+
+- Source : [Régression linéaire:](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
+
+1. Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimise la perte MSE (_Mean squared error_).
+   
+   ![Visualisation des variables pétale (longueur, largeur)](https://github.com/altomator/Formation_IA/blob/main/iris/mse.png)
+
+   
 ## Matrice de confusion
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
 
 - [Github](https://github.com/altomator/Formation_IA/tree/main/iris)
-- Source : [Evaluate the performance of a classifier with Confusion Matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html) (scikit-learn.org)
+- Source : [Evaluate the performance of a classifier with Confusion Matrix](https://developers.google.com/machine-learning/crash-course/linear-regression/parameters-exercise?hl=fr) (developers.google.com/machine-learning)
 
 1. Visualiser le dataset avec [iris_dataset.py ](https://github.com/altomator/Formation_IA/blob/main/iris/iris_dataset.py), en affichant les variables longueur/largeur pour les pétales et les sétales.
    
