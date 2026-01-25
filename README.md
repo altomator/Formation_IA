@@ -218,16 +218,17 @@ Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
 [Démo web d'entrainement d'un LSTM](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
 
 
-## Modèles de langue
-
+# Modèles de langue
 <i>Section "F. Modèles de langue" du support de cours</i>
+
+## Plongement de mots
 
 [Démo web de word embedding](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo)
 
 [Démo web de word embedding](https://projector.tensorflow.org/)
 
 
-## Embedding de texte et clusterisation
+## Plongement de texte et clusterisation
 
 <i>Sections C. et F. du support de cours</i>
 
@@ -259,6 +260,31 @@ streamlit run clusters.py
 - Définir le répertoire de travail (local)
 
 5. Cliquer sur l'onglet "Analyse de données"
+
+## Unités lexicales (token)
+
+[Démo web d'un tokenizer](https://platform.openai.com/tokenizer)
+
+## Modèle BERT
+
+[Démo web BERT](https://cogcomp.seas.upenn.edu/page/demo_view/BERT)
+
+## Température
+
+[Démo web](https://fr.vittascience.com/ia/text)
+
+
+# Modèles multimodaux
+
+<i>Section "G. LLM et VLM" du support de cours</i>
+
+[Démo web SAM](https://aidemos.meta.com/segment-anything/gallery)
+
+[Démo web OpenCLIP](https://meru.robots.ox.ac.uk/gallica)
+
+[Démo web Gemini](https://gemini.google.com/)
+
+[Démo web OCR Arena](https://www.ocrarena.ai/battle)
 
 
 <br>
