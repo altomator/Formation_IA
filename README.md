@@ -218,6 +218,9 @@ streamlit run clusters.py
 
 ## Reconnaissance d'entités nommées
 
+<i>Section "E. Comprendre le langage " du support de cours</i>
+
+
 [Démo web NER : TextRazor](https://www.textrazor.com/demo)
 
 <b>Atelier Python :</b> 
@@ -231,6 +234,14 @@ streamlit run clusters.py
 4. Exécuter cellule par cellule les approches Random Forests puis CRF (Conditional Random Field). Pour CRF, étudier les _features_.
 
 ![CRF](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/crf.png)
+
+
+## Réseaux récurrents
+
+
+[Démo web d'entrainement d'un RNN (addition de nombres) : TextRazor](https://storage.googleapis.com/tfjs-examples/addition-rnn/dist/index.html)
+
+[Démo web d'entrainement d'un LSTM](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
 
 
 <br>
