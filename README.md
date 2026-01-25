@@ -6,6 +6,7 @@ Plan :
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
 - [*TAL*](#tal)
+- [*Modèles de langue*](#modèles-de-langue)
 - [*Ateliers*](#ateliers)
 
 ***
@@ -242,6 +243,14 @@ streamlit run clusters.py
 [Démo web d'entrainement d'un RNN (addition de nombres) : TextRazor](https://storage.googleapis.com/tfjs-examples/addition-rnn/dist/index.html)
 
 [Démo web d'entrainement d'un LSTM](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
+
+
+## Modèles de langue
+
+[Démo web de word embedding](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo)
+
+[Démo web de word embedding](https://projector.tensorflow.org/)
+
 
 
 <br>
