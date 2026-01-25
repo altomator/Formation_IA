@@ -205,7 +205,7 @@ streamlit run clusters.py
 
 [Démo web d'un VAE](https://xnought.github.io/vq-vae-explainer/)
 
-[Démo web d'un VAE]((https://xnought.github.io/vq-vae-explainer/)
+[Démo web d'un VAE](https://xnought.github.io/vq-vae-explainer/)
 
 ***
 ***
