@@ -8,7 +8,6 @@ Plan :
 - [*TAL*](#tal)
 - [*Modèles de langue*](#modèles-de-langue)
 - [*LLM et VLM*](#llm-et-vlm)
-
 - [*Ateliers*](#ateliers)
 
 ***
