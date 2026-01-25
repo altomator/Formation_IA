@@ -49,6 +49,7 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
 
+<b>Atelier Python : matrice de confusion</b>
 - [Github](https://github.com/altomator/Formation_IA/tree/main/iris)
 - Source : [Evaluate the performance of a classifier with Confusion Matrix](https://developers.google.com/machine-learning/crash-course/linear-regression/parameters-exercise?hl=fr) (developers.google.com/machine-learning)
 
@@ -64,12 +65,14 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 > Interprétation : confusion du modèle entre les espèces versicolor et virginica.
 
+
 # Apprentissage supervisé
 
 ## Arbre de décision
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
+<b>Atelier Python : arbre de décision</b>
 - [github](https://github.com/altomator/Formation_IA/tree/main/arbre)
 - Source : [Plot the decision surface of decision trees trained on the iris dataset](https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html) (scikit-learn.org)
 
@@ -108,7 +111,6 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
 1. Etudier le processus d'entrainement du Perceptron avec les paramètres suivants : [Démo web Tensorflow](https://playground.tensorflow.org)
-
 - Problème = classification
 - Paramètres :
   - Fonction d’activation RELU ou sigmoïde
@@ -119,7 +121,7 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 
 
-<b>Atelier Perceptron multicouche </b>
+<b>Atelier Python : Perceptron multicouche </b>
 - [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
 - Source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
 
@@ -143,7 +145,7 @@ Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées
 
 ## Entrainement d'un CNN avec Kaggle
 
-<b>Atelier :</b>
+<b>Atelier Python</b>
 - Jeu de données : [Iris Computer Vision](https://www.kaggle.com/datasets/jeffheaton/iris-computer-vision/code)
 - Notebook : [Iris - TF CNN](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/)
 
@@ -168,7 +170,7 @@ Paramétrage [Démo web](https://clustering-visualizer.web.app/kmeans) :
 - algorithme Kmeans
 - outil : pinceau
   
-      ![Kmeans](https://github.com/altomator/Formation_IA/blob/main/ateliers/loss.png)
+      ![Kmeans](https://github.com/altomator/Formation_IA/blob/main/ateliers/kmeans/kmeans.png)
 
 
 <b>Atelier :</b> 
