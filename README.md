@@ -164,7 +164,12 @@ Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
-[Démo web](https://clustering-visualizer.web.app/kmeans)
+Paramétrage [Démo web](https://clustering-visualizer.web.app/kmeans) :
+- algorithme Kmeans
+- outil : pinceau
+  
+      ![Kmeans](https://github.com/altomator/Formation_IA/blob/main/ateliers/loss.png)
+
 
 <b>Atelier :</b> 
 - [github](https://github.com/altomator/Formation_IA/tree/main/kmeans)
