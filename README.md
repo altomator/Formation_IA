@@ -203,9 +203,10 @@ streamlit run clusters.py
 
 ## Auto-encodeur
 
-[Démo web d'un VAE](https://xnought.github.io/vq-vae-explainer/)
+[Démo web d'un VAE : chiffres](https://xnought.github.io/vq-vae-explainer/)
 
-[Démo web d'un VAE](https://xnought.github.io/vq-vae-explainer/)
+[Démo web d'un VAE : dessin au trait](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
+
 
 ***
 ***
