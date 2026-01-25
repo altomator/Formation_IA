@@ -5,6 +5,7 @@ Plan :
 - [*Introduction*](#introduction)
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
+- TAL
 - [*Ateliers*](#ateliers)
 
 ***
@@ -210,11 +211,33 @@ streamlit run clusters.py
 
 [Démo web d'un VAE : dessin au trait](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
 
+
+
+# TAL
+
+## Reconnaissance d'entités nommées
+
+[Démo web NER : TextRazor](https://www.textrazor.com/demo)
+
+<b>Atelier Python :</b> 
+- Source : [Analyse textuelle avec K-means](https://www.kaggle.com/code/jpmoreux/ner-using-crf/)
+- Jeu de données :  [Kaggle](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
+
+
+1. Se connecter sur kaggle.com
+2. Ouvrir le [notebook](https://www.kaggle.com/code/jpmoreux/iris-tf-cnn/) 
+3. Cliquer sur Copy & Edit notebook
+4. Exécuter cellule par cellule les approches Random Forests puis CRF (Conditional Random Field). Pour CRF, étudier les _features_.
+
+![CRF](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/crf.png)
+
+
 <br>
 <br>
 
 ***
 ***
+
 
 
 # Ateliers
