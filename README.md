@@ -123,7 +123,7 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 - [github](https://github.com/altomator/Formation_IA/tree/main/perceptron)
 - Source : [Iris Neural Network](https://github.com/damiannolan/iris-neural-network/blob/master/iris-neural-network.ipynb)
 
-Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées, 4 neurones par couche 
+Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées
 
    ![Réseau](https://github.com/altomator/Formation_IA/blob/main/perceptron/reseau.png)
 
