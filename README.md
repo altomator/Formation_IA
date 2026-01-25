@@ -7,7 +7,7 @@ Plan :
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
 - [*TAL*](#tal)
 - [*Modèles de langue*](#modèles-de-langue)
-- [*LLM et VLM*](#llm-et-vlm)
+- [*Modèles multimodaux*](#modèles-multimodaux)
 - [*Ateliers*](#ateliers)
 
 ***
