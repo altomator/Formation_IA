@@ -33,7 +33,18 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
   
       ![Seuil de classification](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/seuil.png)
 
+## Courbe ROC
 
+<i>Section "A. Apprentissage machine" du support de cours</i>
+
+- Source : [Courber ROC et AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=fr) (developers.google.com)
+
+1. Faire varier le seuil de classification.
+2. Observer la courbe ROC.
+  
+      ![Seuil de classification](https://github.com/altomator/Formation_IA/blob/main/ateliers/img/roc.png)
+
+   
 ## Matrice de confusion
 
 <i>Section "B. Evaluation des résultats" du support de cours</i>
