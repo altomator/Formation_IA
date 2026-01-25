@@ -85,11 +85,10 @@ Ajustez les curseurs Poids et Biais pour trouver le modèle linéaire qui minimi
 
 <i>Section "C. Apprentissage machine" du support de cours</i>
 
-Etudier le processus d'entrainement du Perceptron.
+1. Etudier pas à pas le processus d'entrainement du Perceptron : [Démo web Loria](https://mlweb.loria.fr/book/en/perceptron.html)
 
-[Démo web Loria](https://mlweb.loria.fr/book/en/perceptron.html)
-
-Etudier le processus d'entrainement du Perceptron avec les paramètres suivants :
+2. Etudier le processus d'entrainement du Perceptron avec les paramètres suivants : [Démo web Tensorflow](https://playground.tensorflow.org)
+   
 - Problème = classification
 - Paramètres :  
   - 2 entrées
@@ -99,7 +98,7 @@ Etudier le processus d'entrainement du Perceptron avec les paramètres suivants 
   - Dataset linéairement séparable (gaussien)
   - Bruit = 0
 
-[Démo web Tensorflow](https://playground.tensorflow.org)
+
 
    ![Perceptron](https://github.com/altomator/Formation_IA/blob/main/perceptron/perceptron.png)
 
