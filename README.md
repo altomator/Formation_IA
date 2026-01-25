@@ -142,6 +142,9 @@ Entraînement d’un Perceptron multicouche avec Keras : 2 couches cachées
 
 Etudier l'architecture du réseau et la couche de sortie (_softmax_) : [Démo web CNN](https://poloclub.github.io/cnn-explainer/)
 
+Etudier l'architecture du réseau et les processus de convolution : [Démo web CNN](https://tensorspace.org/html/playground/inceptionv3.html)
+
+
 ## Entrainement d'un CNN avec Kaggle
 
 <b>Atelier Python</b>
@@ -207,6 +210,8 @@ streamlit run clusters.py
 
 [Démo web d'un VAE : dessin au trait](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
 
+<br>
+<br>
 
 ***
 ***
