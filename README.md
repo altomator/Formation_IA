@@ -1,6 +1,6 @@
 # Formation "IA et patrimoine"
 
-Plan : 
+**Plan** : 
 
 - [*Introduction*](#introduction)
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
