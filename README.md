@@ -443,7 +443,7 @@ Notes :
 
 _Démarche_ :
 
-1. Utiliser les fichiers OCR des dossiers "publicité" et "éditorial".
+1. Utiliser les fichiers OCR des dossiers "publicité" et "éditorial" ou faire des appels à l'API Gallica IIIF Image.
 2. Prompter le LLM pour qu'il produise une décision ("publicité" ou "éditorial"), sa justification et un résumé du texte.
 3. Stocker la sortie du modèle dans un fichier JSON (un par fichier texte).
 4. Stocker la décision du modèle dans un fichier CSV (une ligne par fichier), avec le nom du fichier et le nom du répertoire.
@@ -483,6 +483,20 @@ Variante de l'approche précédente :
 5. Evaluer les performances à la fin du script, en lisant le fichier CSV. Il faut comparer la décision du modèle et le nom du dossier.
 6. Evaluer l'influence du prompt sur les performances.
 
+Sortie du script (exemple pour un dossier "publicité") :
+```
+----------------------
+Processing file 89:  bpt6k47011375-PAG_34_IL000001 - Grande.jpeg
+...writing in output_file:  ocr_output/bpt6k47011375_34.json
+... calling IIIF info    
+https://openapi.bnf.fr/iiif/image/v3/ark:/12148/bpt6k47011375/f34/full/,1400/0/default.jpg
+...calling Mistral pixtral-large-2411
+Decision: advertisement
+{
+  "category": "advertisement",
+  "reasoning": "The image features a promotional layout with marketing arguments such as discounts ('SA CARTE DE RÉDUCTION FAMILIALE'), product pricing ('2,375 Frs', '1,995 Frs'), and a contest announcement ('Participez au GRAND CONCOURS de L'ENCAUSTIQUE SULTANE 100,000 Fr. de prix'). Additionally, it includes a brand logo ('Lévitan'), product images (furniture), and a call to action ('Catalogue gratuit sur demande'), all of which are typical elements of an advertisement."
+}
+```
 
 ### BILAN
 
@@ -492,7 +506,7 @@ Variante de l'approche précédente :
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
 | LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large.  Editoriaux : 38/44 ; Publicité : 93/96 ;  |
-| VLM  |   couverture : 100% / éditorial : 82% / publicité : %   |  Modèle pixtral-large. Couv. : 30/30 ; Editoriaux : 36/44 ; Pub. : . Confusion entre couvertures et publicités |
+| VLM  |   couverture : 100% / éditorial : 82% / publicité : 97%   |  Modèle pixtral-large. Couv. : 30/30 ; Editoriaux : 36/44 ; Pub. : 93/96. Confusion principale entre éditorial et publicités |
 
 
 ***
