@@ -438,7 +438,7 @@ Notes :
 - [Textes océrisés](https://github.com/altomator/Formation_IA/tree/main/marie-claire_data/mc-ocr.zip)
 - outil de codage Python
 - LLM en mode API (voir les modèles Mistral [ici](https://docs.mistral.ai/getting-started/models))
-- clé d'API Mistral
+- clé d'API Mistral fournie
 - exemple de code Python d'appel d'un modèle [Mistral](https://github.com/altomator/Formation_IA/blob/main/ateliers/exemple.py)
 
 _Démarche_ :
@@ -448,6 +448,7 @@ _Démarche_ :
 3. Stocker la sortie du modèle dans un fichier JSON (un par fichier texte).
 4. Stocker la décision du modèle dans un fichier CSV (une ligne par fichier), avec le nom du fichier et le nom du répertoire.
 5. Evaluer les performances à la fin du script, en lisant le fichier CSV. Il faut comparer la décision du modèle et le nom du dossier.
+6. Evaluer l'influence du prompt sur les performances.
 
 Appel du script (exemple) :
 ```
@@ -474,6 +475,13 @@ _Option_ :
 
 **Méthode** : utiliser un VLM en zero _shot learning_ pour classer les images.
 
+Variante de l'approche précédente :
+1. Utiliser les fichiers images des 3 dossiers "couverture, "publicité" et "éditorial".
+2. Prompter le VLM pour qu'il produise une décision et sa justification.
+3. Stocker la sortie du modèle dans un fichier JSON (un par fichier texte).
+4. Stocker la décision du modèle dans un fichier CSV (une ligne par fichier), avec le nom du fichier et le nom du répertoire.
+5. Evaluer les performances à la fin du script, en lisant le fichier CSV. Il faut comparer la décision du modèle et le nom du dossier.
+6. Evaluer l'influence du prompt sur les performances.
 
 
 ### BILAN
@@ -483,8 +491,8 @@ _Option_ :
 | CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
-| LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large. Total : / publicité : 93/96 ; 38/44 éditoriaux. Moyenne : 93%  |
-| VLM  |   couverture : 100% / éditorial : / publicité :    |  Modèle pixtral-large.   | couv. : 30/30 
+| LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large.  Editoriaux : 38/44 ; Publicité : 93/96 ;  |
+| VLM  |   couverture : 100% / éditorial : 82% / publicité : %   |  Modèle pixtral-large. Couv. : 30/30 ; Editoriaux : 36/44 ; Pub. : . Confusion entre couvertures et publicités |
 
 
 ***
