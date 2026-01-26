@@ -483,8 +483,8 @@ _Option_ :
 | CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
-| LLM  |    97% publicités / 86% éditoriaux      |  Total : / publicités 93/96 ; 38/44 éditoriaux. Moyenne : 93%  |
-| VLM  |          |     |
+| LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large. Total : / publicité : 93/96 ; 38/44 éditoriaux. Moyenne : 93%  |
+| VLM  |   couverture : 100% / éditorial : / publicité :    |  Modèle pixtral-large.   | couv. : 30/30 
 
 
 ***
