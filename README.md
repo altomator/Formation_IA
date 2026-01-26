@@ -5,7 +5,7 @@ Plan :
 - [*Introduction*](#introduction)
 - [*Apprentissage supervisé*](#apprentissage-supervisé)
 - [*Apprentissage non supervisé*](#apprentissage-non-supervisé)
-- [*TAL*](#tal)
+- [*Traitement automatique du langage*](#traitement-automatique-du-langage)
 - [*Modèles de langue*](#modèles-de-langue)
 - [*Modèles multimodaux*](#modèles-multimodaux)
 - [*Ateliers*](#ateliers)
@@ -188,7 +188,7 @@ Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
 
 <br>
 
-# TAL
+# Traitement automatique du langage
 
 ## Reconnaissance d'entités nommées
 
