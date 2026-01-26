@@ -214,7 +214,7 @@ Paramétrage de la [démo web](https://clustering-visualizer.web.app/kmeans) :
 
 <i>Section "F. Modèles de langue" du support de cours</i>
 
-[Démo web d'entrainement d'un RNN (addition de nombres) : TextRazor](https://storage.googleapis.com/tfjs-examples/addition-rnn/dist/index.html)
+[Démo web d'entrainement d'un RNN (addition de nombres)](https://storage.googleapis.com/tfjs-examples/addition-rnn/dist/index.html)
 
 [Démo web d'entrainement d'un LSTM](https://storage.googleapis.com/tfjs-examples/lstm-text-generation/dist/index.html)
 
