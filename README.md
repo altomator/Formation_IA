@@ -471,7 +471,7 @@ _Option_ :
   - [Mistral](https://docs.mistral.ai/capabilities/structured_output/custom)
   - [Pydantic](https://docs.pydantic.dev/latest/concepts/models/)
 
-### A.5 — Avec un VLM : classification avec un modèle multimodal
+### A.5 — Avec un VLM : classification avec un modèle texte-image
 
 **Méthode** : utiliser un VLM en zero _shot learning_ pour classer les images.
 
@@ -498,11 +498,16 @@ Decision: advertisement
 }
 ```
 
-### BILAN
+### Bilan des performances
+
+Notes :
+- jeu de données de petite taille
+- Performances parfois calculées d'après peu de données
+- Grande sensibilité des LLM et VLM à la forme du prompt
 
 | Approche  | Performances          | Commentaires |
 | :--------------- |---------------:| :-----:|
-| CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
+| CNN   |   82%       |  . Confusion entre couvertures et publicités |
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
 | LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large.  Editorial : 38/44 ; Publicité : 93/96 ;  |
