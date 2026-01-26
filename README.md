@@ -505,9 +505,11 @@ Decision: advertisement
 | CNN   |   82%       |  Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | SVM  | 76%             |   Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités |
 | Arbre de décision  | 82%          | Performances calculées d'après peu de données (17). Confusion entre couvertures et publicités    |
-| LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large.  Editoriaux : 38/44 ; Publicité : 93/96 ;  |
-| VLM  |   couverture : 100% / éditorial : 82% / publicité : 97%   |  Modèle pixtral-large. Couv. : 30/30 ; Editoriaux : 36/44 ; Pub. : 93/96. Confusion principale entre éditorial et publicités |
+| LLM  |   éditorial : 86% / publicité :  97%  /       |  Modèle pixtral-large.  Editorial : 38/44 ; Publicité : 93/96 ;  |
+| VLM  |   couverture : 100% / éditorial : 82% / publicité : 97%  |  Modèle pixtral-large. Couverture : 30/30 ; Editorial : 36/44 ; Publicité : 93/96. Confusion principale entre éditorial et publicités |
 
+
+<br>
 
 ***
 
@@ -517,4 +519,6 @@ Decision: advertisement
 
 Utiliser le template : 
 
-### B.1 — Reproduire l'atelier de classification de textes
+### B.1 — Reproduire l'atelier de classification de textes A.4
+
+Utiliser le template : 
