@@ -478,7 +478,7 @@ _Option_ :
 Variante de l'approche précédente :
 1. Utiliser les fichiers images des 3 dossiers "couverture, "publicité" et "éditorial".
 2. Prompter le VLM pour qu'il produise une décision et sa justification.
-3. Stocker la sortie du modèle dans un fichier JSON (un par fichier texte).
+3. Stocker la sortie du modèle dans un fichier JSON (un par fichier image).
 4. Stocker la décision du modèle dans un fichier CSV (une ligne par fichier), avec le nom du fichier et le nom du répertoire.
 5. Evaluer les performances à la fin du script, en lisant le fichier CSV. Il faut comparer la décision du modèle et le nom du dossier.
 6. Evaluer l'influence du prompt sur les performances.
